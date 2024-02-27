@@ -1,14 +1,14 @@
 .elementor-kit-19 {
     --e-global-color-primary: #0070B7;
-    --e-global-color-secondary: #3B444B;
-    --e-global-color-text: #7A8289;
+    --e-global-color-secondary: #20283d;
+    --e-global-color-text: #2d3448;
     --e-global-color-accent: #FECC27;
     --e-global-color-dea41e4: #D86D4E;
     --e-global-color-308e809: #F5F5F5;
     --e-global-color-a291686: #FFFFFF;
     --e-global-color-9eaa092: #E5E5E5;
     --e-global-color-a954db2: #02010100;
-    --e-global-color-c124ea5: #2ABE69;
+    --e-global-color-c124ea5: #e30713;
     --e-global-color-651faef: #BDBDBD;
     --e-global-color-d11568e: #4DBAE6;
     --e-global-color-190e635: #000000;
@@ -447,8 +447,8 @@ h1.entry-title {
     }
 }
 
-.horizontal-timeline .items {
-    border-top: 3px solid #e9ecef;
+/* .horizontal-timeline .items {
+    border-top: 3px solid #2b417a;
   }
   
   .horizontal-timeline .items .items-list {
@@ -463,7 +463,7 @@ h1.entry-title {
     content: "";
     position: absolute;
     height: 36px;
-    border-right: 2px dashed #dee2e6;
+    border-right: 2px dashed #ca0926;
     top: 0;
   }
   
@@ -472,10 +472,12 @@ h1.entry-title {
     top: 36px;
     left: 0;
     right: 0;
-    width: 75px;
+    width: 70px;
+    height: 70px;
     margin: 0 auto;
-    font-size: 0.9rem;
-    padding-top: 8px;
+    font-size: 30px;
+    padding-top: 20px;
+    border-radius: 50%;
   }
   
   @media (min-width: 1140px) {
@@ -486,23 +488,135 @@ h1.entry-title {
     }
   
     .horizontal-timeline .items .items-list .event-date {
-      top: -40px;
+      top: -36px;
     }
-  }
+  } */
 
   .elementor-element-f503020 {
     padding: 20px 0px;
     background: aliceblue;
-    margin-top: 60px;
+    margin-top: 100px;
   }
   #pills-tab {
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
   }
   #pills-tab .nav-item {
     margin: 0px 10px;
   }
   #pills-tabContent {
-    background: antiquewhite;
-    padding: 20px;
+    background: #4366b7;
+    border-radius: 40px;
   }
+
+/* New Timeline css  */
+.timeline-wrapper {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 544px;
+}
+
+.timeline-wrapper .middle-line {
+    position: absolute;
+    width: 90%;
+    height: 5px;
+    top: 59%;
+    transform: translateY(-50%);
+    background: #2a407a;
+}
+
+.box {
+    width: 25%;
+    position: relative;
+    min-height: 300px;
+    float: left;
+    top: 42px;
+}
+
+.box .date {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background: #c80826;
+    border: 2px solid #c80826;
+}
+
+.date p {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.box-content h4{
+    font-size: 19px;
+    color: #fff;
+}
+
+.box .box-content {
+    border-radius: 5px;
+    /* background-color: #00b0bd; */
+    width: 347px;
+    position: absolute;
+    left: -55px;
+    text-align: center;
+    padding: 15px;
+}
+
+.box-content p {
+    margin: 0;
+    color: #e4e3e3;
+}
+
+.box-bottom .box-content {
+    top: 73%;
+}
+
+.box-content::before {
+    content: " ";
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+}
+
+.box-bottom .box-content::before {
+    /* border-bottom-color: #00b0bd; */
+    top: -42px;
+    border-style: dashed;
+    height: 53px;
+    border-right: 3px dashed #ca0926;
+}
+
+.box-top .box-content::before {
+        /* border-top: #00b0bd; */
+    /* bottom: -20px; */
+    border-style: dashed;
+    height: 53px;
+    border-right: 3px dashed #ca0926;
+    top: 114px;
+}
+.box-top .box-content {
+    top: -44px;
+}
+
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* New css */
+#roadmap {
+    background-image: url(../../../../../images/Home/07/Section07BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3em 3em 2em 3em;
+}
+.box .date h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}

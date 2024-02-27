@@ -1,18 +1,20 @@
 .elementor-18809 .elementor-element.elementor-element-f90c3fa {
-    padding: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .elementor-18809 .elementor-element.elementor-element-d5d6f12:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-18809 .elementor-element.elementor-element-d5d6f12>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #fff;
+    background-image: url(../../../../../images/Home/13/Card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .elementor-18809 .elementor-element.elementor-element-d5d6f12>.elementor-element-populated {
-    border-style: solid;
+    /* border-style: solid;
     border-width: 2px 2px 2px 2px;
-    border-color: var(--e-global-color-primary);
+    border-color: var(--e-global-color-primary); */
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: 15px 15px 15px 15px;
+    /* margin: 15px 15px 15px 15px; */
     --e-column-margin-right: 15px;
     --e-column-margin-left: 15px;
 }
@@ -45,7 +47,7 @@
 }
 
 .elementor-18809 .elementor-element.elementor-element-5ac87f2>.elementor-element-populated {
-    padding: 40px 15px 40px 15px;
+    padding: 87px 0px 11px 0px;
 }
 
 .elementor-18809 .elementor-element.elementor-element-f18324e .elementor-heading-title {
@@ -176,11 +178,11 @@
 
 .elementor-18809 .elementor-element.elementor-element-4befc95.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
     align-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .elementor-18809 .elementor-element.elementor-element-4befc95>.elementor-element-populated {
-    padding: 40px 15px 30px 60px;
+    padding: 50px 15px 0px 60px;
 }
 
 .elementor-18809 .elementor-element.elementor-element-ba52f88 .elementor-heading-title {
@@ -195,9 +197,9 @@
 
 .elementor-18809 .elementor-element.elementor-element-b77de7e.elementor-view-framed .elementor-icon,
 .elementor-18809 .elementor-element.elementor-element-b77de7e.elementor-view-default .elementor-icon {
-    fill: var(--e-global-color-primary);
-    color: var(--e-global-color-primary);
-    border-color: var(--e-global-color-primary);
+    fill: #fc1010;
+    color: #fc1010;
+    border-color: #b4becc;
 }
 
 .elementor-18809 .elementor-element.elementor-element-b77de7e {
@@ -246,9 +248,9 @@
 
 .elementor-18809 .elementor-element.elementor-element-ef93202.elementor-view-framed .elementor-icon,
 .elementor-18809 .elementor-element.elementor-element-ef93202.elementor-view-default .elementor-icon {
-    fill: var(--e-global-color-primary);
-    color: var(--e-global-color-primary);
-    border-color: var(--e-global-color-primary);
+    fill: #fc1010;
+    color: #fc1010;
+    border-color: #b4becc;
 }
 
 .elementor-18809 .elementor-element.elementor-element-ef93202 {
@@ -297,9 +299,9 @@
 
 .elementor-18809 .elementor-element.elementor-element-dc998ce.elementor-view-framed .elementor-icon,
 .elementor-18809 .elementor-element.elementor-element-dc998ce.elementor-view-default .elementor-icon {
-    fill: var(--e-global-color-primary);
-    color: var(--e-global-color-primary);
-    border-color: var(--e-global-color-primary);
+    fill: #fc1010;
+    color: #fc1010;
+    border-color: #b4becc;
 }
 
 .elementor-18809 .elementor-element.elementor-element-dc998ce {
@@ -348,9 +350,9 @@
 
 .elementor-18809 .elementor-element.elementor-element-77d5905.elementor-view-framed .elementor-icon,
 .elementor-18809 .elementor-element.elementor-element-77d5905.elementor-view-default .elementor-icon {
-    fill: var(--e-global-color-primary);
-    color: var(--e-global-color-primary);
-    border-color: var(--e-global-color-primary);
+    fill: #fc1010;
+    color: #fc1010;
+    border-color: #b4becc;
 }
 
 .elementor-18809 .elementor-element.elementor-element-77d5905 {
@@ -399,9 +401,9 @@
 
 .elementor-18809 .elementor-element.elementor-element-13aefb0.elementor-view-framed .elementor-icon,
 .elementor-18809 .elementor-element.elementor-element-13aefb0.elementor-view-default .elementor-icon {
-    fill: var(--e-global-color-primary);
-    color: var(--e-global-color-primary);
-    border-color: var(--e-global-color-primary);
+    fill: #fc1010;
+    color: #fc1010;
+    border-color: #b4becc;
 }
 
 .elementor-18809 .elementor-element.elementor-element-13aefb0 {
@@ -509,7 +511,7 @@
 }
 
 .elementor-18809 .elementor-element.elementor-element-9b77b5a>.elementor-element-populated {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .elementor-18809 .elementor-element.elementor-element-67fbe87 {
@@ -536,9 +538,9 @@
 
 .elementor-18809 .elementor-element.elementor-element-829537f .elementor-heading-title {
     color: #ffffffb8;
-    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-family: Sans-serif;
     font-size: var(--e-global-typography-text-font-size);
-    font-weight: var(--e-global-typography-text-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-text-line-height);
     letter-spacing: var(--e-global-typography-text-letter-spacing);
 }
@@ -579,9 +581,9 @@
 
 .elementor-18809 .elementor-element.elementor-element-964dca9 .elementor-icon-box-title,
 .elementor-18809 .elementor-element.elementor-element-964dca9 .elementor-icon-box-title a {
-    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-family: Sans-serif;
     font-size: var(--e-global-typography-text-font-size);
-    font-weight: var(--e-global-typography-text-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-text-line-height);
     letter-spacing: var(--e-global-typography-text-letter-spacing);
 }
@@ -665,15 +667,15 @@
 
 .elementor-18809 .elementor-element.elementor-element-2e46ec8 .elementor-icon-box-title,
 .elementor-18809 .elementor-element.elementor-element-2e46ec8 .elementor-icon-box-title a {
-    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-family: Sans-serif;
     font-size: var(--e-global-typography-text-font-size);
-    font-weight: var(--e-global-typography-text-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-text-line-height);
     letter-spacing: var(--e-global-typography-text-letter-spacing);
 }
 
 .elementor-18809 .elementor-element.elementor-element-f3efbde>.elementor-element-populated {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .elementor-18809 .elementor-element.elementor-element-c414ac6>.elementor-element-populated {
@@ -759,7 +761,7 @@ body:not(.rtl) .elementor-18809 .elementor-element.elementor-element-868ded8 .el
 .elementor-18809 .elementor-element.elementor-element-868ded8 .elementor-icon-list-item>a {
     font-family: var(--e-global-typography-text-font-family), Sans-serif;
     font-size: var(--e-global-typography-text-font-size);
-    font-weight: var(--e-global-typography-text-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-text-line-height);
     letter-spacing: var(--e-global-typography-text-letter-spacing);
 }
@@ -860,7 +862,7 @@ body:not(.rtl) .elementor-18809 .elementor-element.elementor-element-c9b4834 .el
 .elementor-18809 .elementor-element.elementor-element-c9b4834 .elementor-icon-list-item>a {
     font-family: var(--e-global-typography-text-font-family), Sans-serif;
     font-size: var(--e-global-typography-text-font-size);
-    font-weight: var(--e-global-typography-text-font-weight);
+    font-weight: 500;
     line-height: var(--e-global-typography-text-line-height);
     letter-spacing: var(--e-global-typography-text-letter-spacing);
 }
@@ -879,7 +881,7 @@ body:not(.rtl) .elementor-18809 .elementor-element.elementor-element-c9b4834 .el
 }
 
 .elementor-18809 .elementor-element.elementor-element-f85340a>.elementor-element-populated {
-    padding: 20px 15px 20px 15px;
+    padding: 20px 15px 0px 15px;
 }
 
 .elementor-18809 .elementor-element.elementor-element-75f93ca .elementor-heading-title {
@@ -1550,6 +1552,10 @@ body:not(.rtl) .elementor-18809 .elementor-element.elementor-element-7844002 .el
 .elementor-element-7844002 .elementor-icon-list-icon {
     padding: 5px 7px;
     background: #0d1b38;
-    border-radius: 5px;
-    border: 1px solid #4b5a83;
+    border-radius: 8px;
+    border: 1.5px solid #4b5a83;
+}
+.elementor-element-1c9689d img {
+    margin-bottom: 5px;
+    width: 150px;
 }
