@@ -81,18 +81,18 @@
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--dropdown a.elementor-item-active,
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--dropdown a.highlighted,
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-menu-toggle:hover {
-	color: var(--e-global-color-secondary);
+	color: #fff;
 }
 
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--dropdown a:hover,
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--dropdown a.elementor-item-active,
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--dropdown a.highlighted {
-	background-color: var(--e-global-color-accent);
+	background-color: #d31c35;
 }
 
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--dropdown a.elementor-item-active {
-	color: var(--e-global-color-secondary);
-	background-color: var(--e-global-color-accent);
+	color: #fff;
+	background-color: #d31c35;
 }
 
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--dropdown .elementor-item,
