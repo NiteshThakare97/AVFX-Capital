@@ -383,9 +383,7 @@
 }
 
 footer {
-	background-image: url(../../../../../images/Contact/Footer/Footer.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: linear-gradient(90deg, #1a3062, #06132c);
 }
 .elementor-element-d4159e3 {
 	border-top: 1px solid #e3000c;

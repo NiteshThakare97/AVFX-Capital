@@ -7138,7 +7138,7 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 		top: 251px;
 	}
 	.elementor-element-b9f44e2 {
-		margin-bottom: 213px;
+		margin-bottom: 213px !important; 
 	}
 	.timeline-wrapper .middle-line {
 		width: 94%;
@@ -7186,5 +7186,39 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 	}
 	.elementor-element-7df686c ul:before {
 		height: calc(100% - 55px);
+	}
+
+	#tab-section {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -110px;
+		width: 90%;
+		height: auto;
+	}
+	.elementor-36 .elementor-element.elementor-element-7781c17>.elementor-widget-container {
+		padding: 20px 10px 88px 10px;
+	}
+	.elementor-element-0e36d62 {
+		width: 100%;
+	}
+	#pills-tab .nav-item {
+		margin: 0px 3px;
+		width: 30%;
+	}
+	#download-platform-content {
+		padding: 20px 20px;
+		height: auto;
+	}
+	#home-mainbanner button {
+		display: none;
+	}
+	.pay-ico ul {
+		flex-direction: column;
+	}
+	.pay-ico ul li {
+		margin-bottom: 8px;
+	}
+	.elementor-36 .elementor-element.elementor-element-8866e90 {
+		padding: 0% 0% 0% 0%;
 	}
 }
