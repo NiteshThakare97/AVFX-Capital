@@ -2390,3 +2390,9 @@ li {
         margin: 35px auto 0px;
     }
 }
+
+@media only screen and (min-width: 1600px) {
+    .elementor-1315 .elementor-element.elementor-element-17d7e74 {
+        padding: 9em 1em 12em 1em;
+    }
+}

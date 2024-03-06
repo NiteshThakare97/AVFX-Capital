@@ -625,3 +625,9 @@ p {
     color: #b8bcc8;
     border-bottom: 1.5px solid #e4000d;
 }
+
+@media only screen and (min-width: 1600px) {
+    .box .box-content {
+        left: -22px;
+    }
+}

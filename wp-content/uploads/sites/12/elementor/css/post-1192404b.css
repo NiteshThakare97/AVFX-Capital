@@ -3340,3 +3340,15 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
         margin-bottom: 30px;
     }
 }
+
+@media only screen and (min-width: 1600px) {
+    #cfd-banner {
+        padding: 20em 1em 9.3em 1em;
+    }
+    #metal-banner, #commodities-banner, #shares-banner, #cryptocurrency .elementor-element-1c6e573 {
+        padding: 20em 1em 10em 1em;
+    }
+    #indices .elementor-element-1c6e573 {
+        padding: 8em 0.5em 0.5em 6em;
+    }
+}

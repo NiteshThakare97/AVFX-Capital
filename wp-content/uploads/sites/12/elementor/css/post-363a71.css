@@ -7222,3 +7222,9 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 		padding: 0% 0% 0% 0%;
 	}
 }
+
+@media only screen and (min-width: 1600px) {
+	.elementor-36 .elementor-element.elementor-element-041e51c {
+		padding: 6em 1em 5em 1em;
+	}
+}
