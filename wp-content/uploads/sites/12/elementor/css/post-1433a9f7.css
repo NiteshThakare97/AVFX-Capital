@@ -10,13 +10,12 @@
 .elementor-1433 .elementor-element.elementor-element-47527c3 {
     overflow: hidden;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 12em 1em 9em 1em;
+    padding: 15em 1em 1em 1em;
 }
 
 .elementor-1433 .elementor-element.elementor-element-47527c3:not(.elementor-motion-effects-element-type-background),
 .elementor-1433 .elementor-element.elementor-element-47527c3>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-image: url("../../2023/05/BG12.jpg");
-    background-position: 50% 41%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,7 +28,7 @@
 }
 
 .elementor-1433 .elementor-element.elementor-element-68cc706 {
-    padding: 0% 50% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
 
 .elementor-1433 .elementor-element.elementor-element-26543aa>.elementor-element-populated {
@@ -39,11 +38,11 @@
 .elementor-1433 .elementor-element.elementor-element-7564da7 .elementor-heading-title {
     color: var(--e-global-color-a291686);
     font-family: var(--e-global-typography-583e54c-font-family), Sans-serif;
-    font-size: var(--e-global-typography-583e54c-font-size);
+    font-size: 30px;
     font-weight: var(--e-global-typography-583e54c-font-weight);
-    text-transform: var(--e-global-typography-583e54c-text-transform);
+    text-align: center;
     line-height: var(--e-global-typography-583e54c-line-height);
-    letter-spacing: var(--e-global-typography-583e54c-letter-spacing);
+    letter-spacing: 0px;
     word-spacing: var(--e-global-typography-583e54c-word-spacing);
 }
 
@@ -120,7 +119,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-3e818e5 {
     overflow: hidden;
-    padding: 6em 1em 7em 1em;
+    padding: 1em 1em 1em 1em;
 }
 
 .elementor-1433 .elementor-element.elementor-element-4ff03a2 {
@@ -136,7 +135,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-3fa55af {
     --divider-border-style: solid;
-    --divider-color: var(--e-global-color-accent);
+    --divider-color: #e4000d;
     --divider-border-width: 7px;
 }
 
@@ -150,14 +149,14 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-flip-box__front {
-    background-image: url("../../2023/05/investments-young-woman-investor-buys-stocks-on-the-stock-exchange-stock-market-from-home-e1684670419599.jpg");
+    background-image: url("../../../../../images/Platform/02/01.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-flip-box__front .elementor-flip-box__layer__overlay {
-    background-color: #0000005E;
+    /* background-color: #0000005E; */
     padding: 30px 30px 30px 30px;
     text-align: left;
     justify-content: flex-end;
@@ -173,7 +172,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-flip-box__layer,
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-flip-box__layer__overlay {
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-icon-wrapper {
@@ -189,11 +188,11 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-view-stacked .elementor-icon {
-    color: var(--e-global-color-accent);
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-view-stacked .elementor-icon svg {
-    fill: var(--e-global-color-accent);
+    fill: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1853fd1 .elementor-icon {
@@ -275,14 +274,14 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-flip-box__front {
-    background-image: url("../../2023/05/business-team-investment-working-with-computer.jpg");
+    background-image: url("../../../../../images/Platform/02/02.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-flip-box__front .elementor-flip-box__layer__overlay {
-    background-color: #0000005E;
+    /* background-color: #0000005E; */
     padding: 30px 30px 30px 30px;
     text-align: left;
     justify-content: flex-end;
@@ -298,7 +297,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-flip-box__layer,
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-flip-box__layer__overlay {
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-icon-wrapper {
@@ -314,11 +313,11 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-view-stacked .elementor-icon {
-    color: var(--e-global-color-accent);
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-view-stacked .elementor-icon svg {
-    fill: var(--e-global-color-accent);
+    fill: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-cab424c .elementor-icon {
@@ -420,14 +419,14 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-flip-box__front {
-    background-image: url("../../2023/05/stock-market-finance-chart-and-woman-on-laptop-for-crypto-trading-analysis-and-bitcoin-screen-fi.jpg");
+    background-image: url("../../../../../images/Platform/02/03.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-flip-box__front .elementor-flip-box__layer__overlay {
-    background-color: #0000005E;
+    /* background-color: #0000005E; */
     padding: 30px 30px 30px 30px;
     text-align: left;
     justify-content: flex-end;
@@ -443,7 +442,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-flip-box__layer,
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-flip-box__layer__overlay {
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-icon-wrapper {
@@ -459,11 +458,11 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-view-stacked .elementor-icon {
-    color: var(--e-global-color-accent);
+    color: #e4000d
 }
 
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-view-stacked .elementor-icon svg {
-    fill: var(--e-global-color-accent);
+    fill: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-e2fdb76 .elementor-icon {
@@ -545,14 +544,14 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-flip-box__front {
-    background-image: url("../../2023/05/woman-trading-with-cryptocurrency-and-celebrating-for-success.jpg");
+    background-image: url("../../../../../images/Platform/02/04.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-flip-box__front .elementor-flip-box__layer__overlay {
-    background-color: #0000005E;
+    /* background-color: #0000005E; */
     padding: 30px 30px 30px 30px;
     text-align: left;
     justify-content: flex-end;
@@ -568,7 +567,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-flip-box__layer,
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-flip-box__layer__overlay {
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-icon-wrapper {
@@ -584,11 +583,11 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-view-stacked .elementor-icon {
-    color: var(--e-global-color-accent);
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-view-stacked .elementor-icon svg {
-    fill: var(--e-global-color-accent);
+    fill: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-1c74324 .elementor-icon {
@@ -670,14 +669,14 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-flip-box__front {
-    background-image: url("../../2023/05/money-exchange.jpg");
+    background-image: url("../../../../../images/Platform/02/05.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-flip-box__front .elementor-flip-box__layer__overlay {
-    background-color: #0000005E;
+    /* background-color: #0000005E; */
     padding: 30px 30px 30px 30px;
     text-align: left;
     justify-content: flex-end;
@@ -693,7 +692,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-flip-box__layer,
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-flip-box__layer__overlay {
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-icon-wrapper {
@@ -709,11 +708,11 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-view-stacked .elementor-icon {
-    color: var(--e-global-color-accent);
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-view-stacked .elementor-icon svg {
-    fill: var(--e-global-color-accent);
+    fill: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-2d95cdc .elementor-icon {
@@ -815,14 +814,14 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-flip-box__front {
-    background-image: url("../../2023/05/a-businesswoman-making-thumb-up-hand-sign-while-putting-coin-into-piggy-bank.jpg");
+    background-image: url("../../../../../images/Platform/02/06.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-flip-box__front .elementor-flip-box__layer__overlay {
-    background-color: #0000005E;
+    /* background-color: #0000005E; */
     padding: 30px 30px 30px 30px;
     text-align: left;
     justify-content: flex-end;
@@ -838,7 +837,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-flip-box__layer,
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-flip-box__layer__overlay {
-    border-radius: 5px;
+    border-radius: 12px;
 }
 
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-icon-wrapper {
@@ -854,11 +853,11 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-view-stacked .elementor-icon {
-    color: var(--e-global-color-accent);
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-view-stacked .elementor-icon svg {
-    fill: var(--e-global-color-accent);
+    fill: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-acdf0a9 .elementor-icon {
@@ -1001,6 +1000,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-0efaa75 {
     color: var(--e-global-color-a291686);
+    margin-bottom: 0px;
 }
 
 .elementor-1433 .elementor-element.elementor-element-78e8283 img {
@@ -1041,12 +1041,11 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-75ce57a img {
     width: 100%;
-    filter: brightness(130%) contrast(120%) saturate(100%) blur(0px) hue-rotate(0deg);
 }
 
 .elementor-1433 .elementor-element.elementor-element-75ce57a>.elementor-widget-container {
-    margin: -6em 0em -4em 0em;
-    --e-transform-rotateZ: 10deg;
+    margin: 0em 0em 0em 0em;
+    /* --e-transform-rotateZ: 10deg; */
 }
 
 .elementor-1433 .elementor-element.elementor-element-055efad {
@@ -1493,15 +1492,14 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 
 .elementor-1433 .elementor-element.elementor-element-ca07285 {
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 5em 1em 5em 1em;
+    padding: 3em 1em 2em 1em;
 }
 
 .elementor-1433 .elementor-element.elementor-element-ca07285:not(.elementor-motion-effects-element-type-background),
 .elementor-1433 .elementor-element.elementor-element-ca07285>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-image: url("../../2023/05/crypto-trader-sitting-in-front-of-computers-making-professional-analysis-of-candlestick-chart.jpg");
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1527,7 +1525,8 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-412bbb3 {
     overflow: hidden;
-    padding: 6em 1em 7em 1em;
+    padding: 11em 1em 3em 1em;
+    background: #ebf0f6;
 }
 
 .elementor-1433 .elementor-element.elementor-element-68256a8>.elementor-container {
@@ -1536,7 +1535,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-68256a8 {
     margin-top: 0em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 }
 
 .elementor-1433 .elementor-element.elementor-element-6f4f213 {
@@ -1595,7 +1594,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion.accoedion-primary .elementskit-card .elementskit-card-header>.elementskit-btn-link[aria-expanded="true"],
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion .elementskit-card-header>.elementskit-btn-link[aria-expanded=true],
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion.floating-style .elementskit-card .elementskit-btn-link[aria-expanded="true"] {
-    background-color: var(--e-global-color-primary);
+    background-color: #07163d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion .elementskit-card:not(:last-child) {
@@ -1610,6 +1609,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
     color: var(--e-global-color-text);
     border-radius: 0px 0px 5px 5px;
     padding: 25px 25px 25px 25px;
+    background-color: #fff;
 }
 
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion .elementskit-card-body p,
@@ -1645,6 +1645,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion .elementskit-card-header .elementskit-btn-link .icon-open {
     font-size: 24px;
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion .elementskit-card-header .elementskit-btn-link svg {
@@ -1654,6 +1655,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion .elementskit-card .elementskit-card-header .elementskit-btn-link .icon-closed {
     font-size: 26px;
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-7f9cd68 .elementskit-accordion .elementskit-card .elementskit-card-header .elementskit-btn-link svg {
@@ -1699,7 +1701,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion.accoedion-primary .elementskit-card .elementskit-card-header>.elementskit-btn-link[aria-expanded="true"],
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion .elementskit-card-header>.elementskit-btn-link[aria-expanded=true],
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion.floating-style .elementskit-card .elementskit-btn-link[aria-expanded="true"] {
-    background-color: var(--e-global-color-primary);
+    background-color: #07163d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion .elementskit-card:not(:last-child) {
@@ -1714,6 +1716,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
     color: var(--e-global-color-text);
     border-radius: 0px 0px 5px 5px;
     padding: 25px 25px 25px 25px;
+    background-color: #fff;
 }
 
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion .elementskit-card-body p,
@@ -1749,6 +1752,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion .elementskit-card-header .elementskit-btn-link .icon-open {
     font-size: 24px;
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion .elementskit-card-header .elementskit-btn-link svg {
@@ -1758,6 +1762,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion .elementskit-card .elementskit-card-header .elementskit-btn-link .icon-closed {
     font-size: 26px;
+    color: #e4000d;
 }
 
 .elementor-1433 .elementor-element.elementor-element-798e521 .elementskit-accordion .elementskit-card .elementskit-card-header .elementskit-btn-link svg {
@@ -1782,7 +1787,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
     }
 
     .elementor-1433 .elementor-element.elementor-element-68cc706 {
-        padding: 0% 40% 0% 0%;
+        padding: 0% 0% 0% 0%;
     }
 
     .elementor-1433 .elementor-element.elementor-element-7564da7 .elementor-heading-title {
@@ -3039,4 +3044,66 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
     .elementor-1433 .elementor-element.elementor-element-0805df5 {
         width: 100%;
     }
+}
+
+/* Platform  */
+#platform .elementor-element-47527c3 {
+    background-image: url(../../../../../images/Platform/01/MainBanner.png);
+    margin-top: 95px;
+} 
+#platform .elementor-element-a780958 {
+    padding-right: 153px;
+} 
+#platform .elementor-element.elementor-element-5e22b4f>.elementor-element-populated {
+    align-content: flex-end;
+} 
+#platform .elementor-element-3b1acb4 {
+    background: linear-gradient(45deg, #1e3368, #293f78);
+    color: aliceblue;
+} 
+#platform .elementor-element.elementor-element-78e8283 li h4, #platformsec7 li h4 {
+    color: #fff;
+    margin: 16px 0px 8px 0px;
+} 
+#platform .elementor-element-78e8283 li::marker, #platformsec7 li::marker {
+    color: #b8012d;
+} 
+#platform .elementor-element-517415b>.elementor-element-populated {
+    padding: 0px;
+} 
+#platform .elementor-element-8a52b96 .elementor-container {
+    align-items: center;
+} 
+#platformsec5 {
+    background-image: url(../../../../../images/Platform/05/Section05BG.png);
+}
+#platform .elementor-element-9af4d7e {
+    font-size: 17px;
+    color: aliceblue;
+    line-height: 28px;
+}
+#platform .elementor-element-26b5040 hr {
+    background-color: #e3000c;
+    border: none;
+    height: 7px;
+    width: 70px;
+    margin-top: 35px;
+}
+#platformsec5-loti {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    z-index: 10;
+}
+#platform .elementor-element-26b5040 h4 {
+    font-size: 23px;
+    font-weight: 500;
+}
+#key {
+    position: absolute;
+    left: 10px;
+    top: -140px;
+}
+#platformsec7 {
+    background-image: url(../../../../../images/Platform/07/Section07BG.png);
 }
