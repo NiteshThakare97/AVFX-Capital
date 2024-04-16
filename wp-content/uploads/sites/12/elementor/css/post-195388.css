@@ -190,10 +190,10 @@
 .elementor-kit-19 .elementor-button:hover,
 .elementor-kit-19 .elementor-button:focus {
     color: var(--e-global-color-c124ea5);
-    background-color: var(--e-global-color-secondary);
+    background-color: #071534;
     border-style: solid;
     border-width: 1px 0px 0px 0px;
-    border-color: var(--e-global-color-secondary);
+    border-color: #071534;
 }
 
 .elementor-kit-19 label {
