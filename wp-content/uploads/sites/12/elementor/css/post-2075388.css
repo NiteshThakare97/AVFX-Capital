@@ -248,6 +248,10 @@
 	height: 10px;
 }
 
+.elementor-menu-toggle__icon--open, .elementor-menu-toggle__icon--close {
+	font-size: 28px;
+}
+
 @media(max-width:1024px) {
 	.elementor-207 .elementor-element.elementor-element-430a86d {
 		padding: 0.5em 0.5em 0.5em 0.5em;
@@ -351,6 +355,10 @@
 
 	.elementor-207 .elementor-element.elementor-element-7322900>.elementor-widget-container {
 		margin: 0px 0px -7px 0px;
+	}
+
+	.elementor-207 .elementor-element.elementor-element-430a86d .elementor-container {
+		justify-content: space-around;
 	}
 }
 

@@ -3020,6 +3020,57 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     align-items: center;
 }
 
+/* Copy Trading  */
+#copy-trading .elementor-element-1c6e573 {
+    background-image: url(../../../../../images/Copy-Trading/01/MainBanner.png);
+    padding: 12em 1em 13em 1em;
+}
+#copy-trading .elementor-element-23fe73e {
+    background-image: url(../../../../../images/Copy-Trading/02/Section02BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#copy-trading .elementor-element-23fe73e .elementor-col-25 .elementor-widget-wrap {
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 0px rgb(42 64 121 / 31%);
+}
+#copy-trading .elementor-element-23fe73e .elementor-col-25 .elementor-widget-wrap:hover {
+    background-color: #2a4079;
+    color: #fff;
+}
+#copy-trading .elementor-element-23fe73e .elementor-col-25 .elementor-widget-wrap:hover h3 {
+    color: #fff;
+}
+#copy-trading .elementor-element-b86e1af {
+    background: linear-gradient(180deg, #ebf2fc, white);
+    color: #2d407b;
+}
+#copy-trading .elementor-element-500d1bd img {
+    height: auto;
+}
+#copy-trading .elementor-element-255708c>.elementor-element-populated {
+    margin: 0em 0em 0em 1em;
+}
+#copy-trading .elementor-element-6804e84 {
+    width: 45%;
+}
+#copy-trading .elementor-element-255708c {
+    width: 56%;
+}
+#copy-trading .elementor-element-533aa5d hr {
+    width: 70px;
+    height: 7px;
+    border: none;
+    background: #e4000d;
+    margin: 0px auto 20px auto;
+}
+#copy-trading .elementor-element-b86e1af .elementor-container {
+    align-items: center;
+}
+#copy-trading .elementor-element-255708c li::marker {
+    color: #e3010d;
+}
+
 
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -3155,6 +3206,14 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #cryptocurrency .elementor-element-500d1bd img {
         width: auto;
+    }
+
+    /* Copy Trading  */
+    #copy-trading .elementor-element-1c6e573 {
+        padding: 12em 1em 4em 1em;
+    }
+    #copy-trading .elementor-element-255708c, #copy-trading .elementor-element-6804e84 {
+        width: 100%;
     }
 }
 
@@ -3338,6 +3397,14 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #cryptocurrency .elementor-element-7ba5e6f-1 img {
         margin-bottom: 30px;
+    }
+
+    /* Copy Trading  */
+    #copy-trading .elementor-element-1c6e573 {
+        padding: 4em 1em 4em 1em;
+    }
+    #copy-trading .elementor-element-255708c, #copy-trading .elementor-element-6804e84 {
+        width: 100%;
     }
 }
 
