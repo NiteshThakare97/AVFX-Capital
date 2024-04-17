@@ -3067,7 +3067,7 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
     margin: 16px 0px 8px 0px;
     font-size: 20px;
 } 
-#platform .elementor-element-78e8283 li::marker, #platformsec7 li::marker, #platform .elementor-element-166fca0 .elementor-price-table__features-list li::marker {
+#platform .elementor-element-78e8283 li::marker, #platformsec7 li::marker, #platform .elementor-element-166fca0 .elementor-price-table__features-list li::marker, #partnership .elementor-element-935e055 li::marker {
     color: #b8012d;
 } 
 #platform .elementor-element-517415b>.elementor-element-populated {
@@ -3164,6 +3164,16 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
 }
 #platform .elementor-flip-box .elementor-view-stacked .elementor-icon {
     background-color: #253a7b78;
+}
+
+/* Partnership  */
+#partnership .elementor-element-47527c3 {
+    padding: 7em 1em 6em 1em;
+    margin-top: 95px;
+}
+#partnership .elementor-element-935e055 li h4 {
+    margin: 16px 0px 3px 0px;
+    font-size: 20px;
 }
 
 
