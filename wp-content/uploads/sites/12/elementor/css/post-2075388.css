@@ -31,7 +31,7 @@
 	font-family: var(--e-global-typography-520c191-font-family), Sans-serif;
 	font-size: var(--e-global-typography-520c191-font-size);
 	font-weight: var(--e-global-typography-520c191-font-weight);
-	text-transform: var(--e-global-typography-520c191-text-transform);
+	/* text-transform: var(--e-global-typography-520c191-text-transform); */
 	line-height: var(--e-global-typography-520c191-line-height);
 	letter-spacing: var(--e-global-typography-520c191-letter-spacing);
 	word-spacing: var(--e-global-typography-520c191-word-spacing);
@@ -57,7 +57,7 @@
 }
 
 .elementor-207 .elementor-element.elementor-element-aaab92a {
-	--e-nav-menu-horizontal-menu-item-margin: calc(50px / 2);
+	--e-nav-menu-horizontal-menu-item-margin: calc(40px / 2);
 }
 
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--main:not(.elementor-nav-menu--layout-horizontal) .elementor-nav-menu>li:not(:last-child) {
