@@ -6699,14 +6699,19 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 
 #marquee-caption {
 	background: linear-gradient(180deg, #bb0327, #99042e 80%);
+	display: flex;
+	padding: 20px 42px 10px 42px;
+	align-items: center;
 }
 
-#marquee-caption marquee {
-	font-size: 50px;
-	padding: 42px;
+#marquee-caption h2 {
+	font-size: 45px;
 	color: #e6ecfb;
 	text-transform: uppercase;
-	margin-top: 3px;
+	padding: 0px 0px 0px 40px;
+}
+#marquee-caption-btn button {
+	padding: 1rem 1.5rem;
 }
 
 .elementor-element-7df686c ul {
@@ -7110,6 +7115,9 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 		top: -6px;
 		width: 60%;
 	}
+	#marquee-caption h2 {
+		font-size: 30px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -7220,6 +7228,15 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 	}
 	.elementor-36 .elementor-element.elementor-element-8866e90 {
 		padding: 0% 0% 0% 0%;
+	}
+	#marquee-caption {
+		padding: 30px 42px 30px 42px;
+    align-items: center;
+    flex-direction: column-reverse;
+	}
+	#marquee-caption h2 {
+		font-size: 25px;
+		padding: 0px;
 	}
 }
 
