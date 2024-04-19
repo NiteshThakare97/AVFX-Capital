@@ -6705,13 +6705,14 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 }
 
 #marquee-caption h2 {
-	font-size: 45px;
+	font-size: 40px;
 	color: #e6ecfb;
 	text-transform: uppercase;
-	padding: 0px 0px 0px 40px;
+	padding: 0% 0% 0% 11%;
 }
 #marquee-caption-btn button {
 	padding: 1rem 1.5rem;
+	border-radius: 30px;
 }
 
 .elementor-element-7df686c ul {
