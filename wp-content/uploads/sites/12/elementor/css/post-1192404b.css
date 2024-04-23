@@ -2533,7 +2533,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 #cfd hr,
 #metals hr,
 #shares hr,
-#commodities hr, #indices hr, #cryptocurrency hr, #energies hr  {
+#commodities hr, #indices hr, #cryptocurrency hr, #energies hr, #legal-information hr  {
     width: 60px;
     height: 6px;
     background-color: #e4000d;
@@ -2623,7 +2623,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 }
 
 #metals hr,
-#shares hr, #indices hr, #cryptocurrency hr   {
+#shares hr, #indices hr, #cryptocurrency hr, #legal-information hr   {
     margin: auto;
 }
 
@@ -3131,6 +3131,38 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     font-size: 22px;
 }
 
+/* legal Information  */
+#legal-information .elementor-element-5a2f1b0 .elementor-col-50 .elementor-widget-wrap, #legal-information .elementor-element-5a2f1b0 .elementor-col-60 .elementor-widget-wrap {
+    border: 1px solid #a2aec8;
+    background: linear-gradient(180deg, #fefefe, #e2e9f1);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+}
+#legal-information .elementor-element-5a2f1b0 .elementor-col-50 .elementor-widget-wrap:hover, #legal-information .elementor-element-5a2f1b0 .elementor-col-60 .elementor-widget-wrap:hover {
+    border: 2px dashed #b0b7c7;
+    transition: 50ms;
+}
+#legal-information .elementor-element-5a2f1b0 .elementor-col-60 {
+    margin: auto;
+}
+#legal-information .elementor-element-5a2f1b0 button {
+    padding: 1rem 1.7rem;
+    border-radius: 30px;
+}
+#legal-information .elementor-element-5a2f1b0 h4 {
+    margin: 0px;
+    font-size: 22px;
+}
+#legal-information .elementor-element-1c6e573 {
+    padding: 0em;
+}
+#legal-information .elementor-element-23fe73e {
+    background: linear-gradient(180deg, #fefefe, #ebf0f6);
+}
+
+
+
 
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -3488,6 +3520,15 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     .elementor-1192 .elementor-element.elementor-element-0df47a5 img {
         height: 200px;
+    }
+
+    /* legal-information */
+    #legal-information .elementor-element-5a2f1b0 .elementor-col-50 .elementor-widget-wrap, #legal-information .elementor-element-5a2f1b0 .elementor-col-60 .elementor-widget-wrap {
+        justify-content: center;
+        text-align: center;
+    }
+    #legal-information .elementor-element-5a2f1b0 h4 {
+        margin-bottom: 10px;
     }
 }
 
