@@ -6973,8 +6973,8 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 	width: 412px;
 	/* z-index: 2; */
 	right: 0px;
-	margin-top: 55px;
-	height: 653px;
+	/* margin-top: 55px; */
+	height: 666px;
 	margin-left: -124px;
 }
 
@@ -6998,7 +6998,7 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 	padding: 0.5rem 0rem;
 }
 #download-platform-content {
-	height: 562px;
+	height: 621px;
 }
 #trading-pltf-apps button:hover {
 	background: #ffc61d;
@@ -7077,6 +7077,27 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     background-color: #e4000d;
     opacity: 1;
 }
+#main-banner-btn {
+	position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+#main-banner-btn button {
+	padding: 20px 40px;
+    font-size: 19px;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #9b0040, #c00026);
+    border: none;
+    color: #fcf6f8;
+    font-weight: 500;
+}
+.elementor-element-1f1280f .elementor-element-0e36d62 .elementor-widget-wrap {
+	align-content: center;
+	margin-top: 85px;
+}
+
+
+
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
 	.elementor-36 .elementor-element.elementor-element-ee87b04 {
@@ -7118,6 +7139,10 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 	}
 	#marquee-caption h2 {
 		font-size: 30px;
+	}
+	#main-banner-btn button {
+		padding: 10px 20px;
+		font-size: 14px;
 	}
 }
 
@@ -7211,8 +7236,16 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 		width: 100%;
 	}
 	#pills-tab .nav-item {
+		/* old css for earlier tab design 
 		margin: 0px 3px;
-		width: 30%;
+		width: 30%; */
+		margin: 0px 10px;
+        width: 40%;
+	}
+	
+	/* Added after design change for mobile view  */
+	#pills-tab {
+		justify-content: center;
 	}
 	#download-platform-content {
 		padding: 20px 20px;
@@ -7238,6 +7271,14 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 	#marquee-caption h2 {
 		font-size: 25px;
 		padding: 0px;
+	}
+	#main-banner-btn button {
+		padding: 8px 15px;
+        font-size: 12px;
+        display: block;
+	}
+	#main-banner-btn {
+		bottom: 14%;
 	}
 }
 

@@ -57,7 +57,7 @@
 }
 
 .elementor-207 .elementor-element.elementor-element-aaab92a {
-	--e-nav-menu-horizontal-menu-item-margin: calc(40px / 2);
+	--e-nav-menu-horizontal-menu-item-margin: calc(34px / 2);
 }
 
 .elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--main:not(.elementor-nav-menu--layout-horizontal) .elementor-nav-menu>li:not(:last-child) {
@@ -251,6 +251,23 @@
 .elementor-menu-toggle__icon--open, .elementor-menu-toggle__icon--close {
 	font-size: 28px;
 }
+#homesec6-btn {
+	position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+#homesec6-btn button {
+	padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+	background: #c4011f;
+	border-color: #c4011f;
+}
+#homesec6-btn button:hover {
+	color: #fff;
+}
+
+
 
 @media(max-width:1024px) {
 	.elementor-207 .elementor-element.elementor-element-430a86d {
@@ -395,4 +412,14 @@ footer {
 }
 .elementor-element-d4159e3 {
 	border-top: 1px solid #e3000c;
+}
+
+.elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--main .elementor-item button {
+	font-size: 13px;
+    font-weight: 500;
+    background: #c30423;
+    border-color: #c30423;
+}
+.elementor-207 .elementor-element.elementor-element-aaab92a .elementor-nav-menu--main .elementor-item button:hover {
+	color: #fff;
 }
