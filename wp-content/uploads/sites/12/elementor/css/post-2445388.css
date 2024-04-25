@@ -691,6 +691,117 @@ body:not(.rtl) .elementor-244 .elementor-element.elementor-element-1e9d8f4 .elem
     padding-right: 20px;
 } 
 
+/* Pop Up on footer  */
+.modal-header button {
+    font-size: 18px !important;
+    margin: 0px 24px 0px 0px !important;
+    background-color: #e8b829 !important;
+    opacity: 1 !important;
+    padding: 18px !important;
+}
+.modal-header {
+    background: #2b4487 !important;
+    border-radius: 40px 40px 0px 0px;
+    border-bottom: 0px;
+    padding: 0px 10px;
+}
+.modal-content img {
+    width: auto !important;
+}
+.modal-content {
+    background-color: #4366b7;
+    border-radius: 40px;
+}
+.modal-body {
+    padding: 0px;
+}
+/* Pop Up on footer  */
+
+/* Platform Css  */
+#download-platform-btn {
+	background-color: #2b4487;
+	padding: 25px 10px 15px 10px;
+	border-radius: 40px 40px 0px 0px;
+}
+
+#download-platform-btn h5 {
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+}
+
+.elementor-location-footer #download-platform-content {
+	padding: 20px 42px;
+    height: auto;
+}
+
+#down-ptf-icons-1,
+#down-ptf-icons-2 {
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	background: #fff;
+	border-radius: 50%;
+	padding: 17px;
+	margin-right: 20px;
+}
+
+#down-ptf-icons-2 {
+	padding: 15px;
+}
+
+#trading-pltf-apps button {
+	background: #2b4487;
+	border-radius: 10px;
+}
+
+#trading-pltf-apps {
+	display: flex;
+	align-items: center;
+	/* margin-top: 10px; */
+	padding: 20px 0px;
+	border-bottom: 1px solid #3856a1;
+}
+
+#trading-pltf-apps-1 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#trading-pltf-apps p,
+#trading-pltf-apps-1 p {
+	margin: 0px;
+	color: #fff;
+}
+
+#trading-pltf-apps h5 {
+	margin: 0px 0px 5px 0px;
+	color: #fff;
+	font-weight: 400;
+}
+
+#trading-pltf-apps-1 h5 {
+	margin: 0px 0px 5px 0px;
+	color: #ffc61c;
+	font-weight: 400;
+}
+
+#tab-section {
+	position: relative;
+	/* width: 53%; */
+	width: 412px;
+	/* z-index: 2; */
+	right: 0px;
+	/* margin-top: 55px; */
+	height: 666px;
+	margin-left: -124px;
+}
+/* Platform Css  */
+
+
+
+
 
 @media only screen and (max-width: 767px) {
     .elementor-244 .elementor-element.elementor-element-cdc5e64 ul {

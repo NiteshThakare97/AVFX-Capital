@@ -13,6 +13,10 @@
 	<link rel="alternate" type="application/rss+xml" title="AVFX &raquo; Comments Feed"
 		href="../../comments/feed/index.html" />
 
+		    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 	<!-- footer Css  -->
 	<link rel="stylesheet" href="../../wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
 	<link rel="stylesheet" href="../../wp-content/uploads/sites/12/elementor/css-2/post-18826a269.css">
@@ -1923,7 +1927,7 @@
                                                             </a>
                                                         </li>
                                                         <!-- <li class="elementor-icon-list-item">
-                                                            <a href="wp-content/images/Home/documents/100-dollar-Welcome-Bonus-terms-conditions.pdf" target="_blank">
+                                                            <a href="../../wp-content/images/Home/documents/100-dollar-Welcome-Bonus-terms-conditions.pdf" target="_blank">
                                                                 <span class="elementor-icon-list-text"> Welcome Bonus T&C</span>
                                                             </a>
                                                         </li> -->
@@ -2019,44 +2023,276 @@
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-f3aa99f elementor-widget elementor-widget-heading" data-id="f3aa99f" data-element_type="widget" data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
-                                                    <h2 class="elementor-heading-title elementor-size-default">PLATFORMS</h2>
+                                                    <h2 class="elementor-heading-title elementor-size-default">PLATFORMS
+                                                    </h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-1e9d8f4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1e9d8f4" data-element_type="widget" data-widget_type="icon-list.default">
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
-                                                            <a>
-
+                                                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                                 <span class="elementor-icon-list-text" style="color: #fff;">
-																	<img src="../../wp-content/images/Home/11/TradingAppsIcon/MT4Platform.png" alt=""> MT4
+																	<img src="../../wp-content/images/Home/11/TradingAppsIcon/MT4Platform.png"
+																		alt=""> MT4
 																</span>
                                                             </a>
+                                                            <!-- Modal (used here Bootstrap modal)-->
+                                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog">
+                                                                  <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                      <div class="modal-title fs-5" id="exampleModalLabel">
+                                                                        <div id="download-platform-btn">
+                                                                            <h5><img src="../../wp-content/images/Home/11/Download.png" alt=""> Download Platforms
+                                                                            </h5>
+                                                                        </div>
+                                                                      </div>
+                                                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <div id="download-platform-content">
+                                                                            <div>
+                                                                                <img src="../../wp-content/images/Home/11/PlatformIcon/APPs/MT4.png" alt="">
+                                                                            </div>
+                                                                            <div id="trading-pltf-apps">
+                                                                                <div id="down-ptf-icons-1">
+                                                                                    <img src="../../wp-content/images/Home/11/PlatformIcon/Androidstore.png" alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>Available on</p>
+                                                                                    <h5>Google Play Store</h5>
+                                                                                    <a href="https://download.mql5.com/cdn/mobile/mt4/android?server=AVFXTechnology-Demo,AVFXTechnology-Live" target="_blank">
+                                                                                        <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="trading-pltf-apps">
+                                                                                <div id="down-ptf-icons-2">
+                                                                                    <img src="../../wp-content/images/Home/11/PlatformIcon/Applestore.png" alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>Available on</p>
+                                                                                    <h5>Apple Store</h5>
+                                                                                    <a href="https://download.mql5.com/cdn/mobile/mt4/ios?server=AVFXTechnology-Demo,AVFXTechnology-Live" target="_blank">
+                                                                                        <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div id="trading-pltf-apps">
+                                                                                <div id="down-ptf-icons-1">
+                                                                                    <img src="../../wp-content/images/Home/11/PlatformIcon/MicrosoftStore.png" alt="">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p>Available on</p>
+                                                                                    <h5>Microsoft Store</h5>
+                                                                                    <a href="https://download.mql5.com/cdn/web/avfx.technology.limited/mt4/avfxtechnology4setup.exe" target="_blank">
+                                                                                        <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a>
+                                                            <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal-mt5">
 
-                                                                <span class="elementor-icon-list-text" style="color: #fff;"><img src="../../wp-content/images/Home/11/TradingAppsIcon/MT5Platform.png" alt="" > MT5</span>
+                                                                <span class="elementor-icon-list-text" style="color: #fff;"><img
+																		src="../../wp-content/images/Home/11/TradingAppsIcon/MT5Platform.png"
+																		alt=""> MT5</span>
                                                             </a>
+                                                            <!-- Modal -->
+<div class="modal fade" id="exampleModal-mt5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title fs-5" id="exampleModalLabel">
+            <div id="download-platform-btn">
+                <h5><img src="../../wp-content/images/Home/11/Download.png" alt=""> Download Platforms
+                </h5>
+            </div>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="download-platform-content">
+                <div>
+                    <img src="../../wp-content/images/Home/11/PlatformIcon/APPs/MT5.png" alt="">
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-1">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/Androidstore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Google Play Store</h5>
+                        <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=AVFX-Demo,AVFX-Live" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-2">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/Applestore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Apple Store</h5>
+                        <a href="https://apps.apple.com/us/app/metatrader-5-forex-stocks/id413251709" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-1">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/MicrosoftStore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Microsoft Store</h5>
+                        <a href="https://download.mql5.com/cdn/web/avfx.technology.limited/mt5/avfxtechnology5setup.exe" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a>
-
-                                                                <span class="elementor-icon-list-text" style="color: #fff;"><img src="../../wp-content/images/Home/11/TradingAppsIcon/cTrader.png" alt=""> cTrader</span>
+                                                            <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal-3">
+                                                                <span class="elementor-icon-list-text" style="color: #fff;"><img
+																		src="../../wp-content/images/Home/11/TradingAppsIcon/cTrader.png"
+																		alt=""> cTrader</span>
                                                             </a>
+                                                            <!-- Modal -->
+<div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div id="download-platform-btn">
+                <h5><img src="../../wp-content/images/Home/11/Download.png" alt=""> Download Platforms
+                </h5>
+            </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="download-platform-content">
+                <div>
+                    <img src="../../wp-content/images/Home/11/PlatformIcon/APPs/cTrader.png" alt="">
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-1">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/Androidstore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Google Play Store</h5>
+                        <a href="https://play.google.com/store/apps/details?id=com.avfxcapital.app" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-2">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/Applestore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Apple Store</h5>
+                        <a href="https://apps.apple.com/cy/app/spotware-ctrader/id767428811" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-1">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/MicrosoftStore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Microsoft Store</h5>
+                        <a href="https://getctrader.com/avfxtechnology/ctrader-avfxtechnology-setup.exe" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-1">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/Webview.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Web Terminal</h5>
+                        <a href="https://app.avfxcapital.com/" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Launch Now </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a>
+                                                            <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal-4">
 
-                                                                <span class="elementor-icon-list-text" style="color: #fff;"><img src="../../wp-content/images/Home/11/TradingAppsIcon/AVFXWallet.png" alt=""> Avfx Wallet</span>
+                                                                <span class="elementor-icon-list-text" style="color: #fff;"><img
+																		src="../../wp-content/images/Home/11/TradingAppsIcon/AVFXWallet.png"
+																		alt=""> Avfx Wallet</span>
                                                             </a>
+                                                                                                                        <!-- Modal -->
+<div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div id="download-platform-btn">
+                <h5><img src="../../wp-content/images/Home/11/Download.png" alt=""> Download Platforms
+                </h5>
+            </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="download-platform-content">
+                <div>
+                    <img src="../../wp-content/images/Home/11/PlatformIcon/APPs/AVFXWallet.png" alt="">
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-1">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/Androidstore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Google Play Store</h5>
+                        <a href="https://play.google.com/store/apps/details?id=com.mfinance.avfxcapital.prd" target="_blank">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="trading-pltf-apps">
+                    <div id="down-ptf-icons-2">
+                        <img src="../../wp-content/images/Home/11/PlatformIcon/Applestore.png" alt="">
+                    </div>
+                    <div>
+                        <p>Available on</p>
+                        <h5>Apple Store</h5>
+                        <a href="https://apps.apple.com/in/app/avfx-capital/id6443939825">
+                            <button><img src="../../wp-content/images/Home/11/Downloadgrey.png" alt=""> Download Now </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
                                                         </li>
-                                                        <!-- <li class="elementor-icon-list-item">
-                                                            <a>
-
-                                                                <span class="elementor-icon-list-text" style="color: #fff;"><img src="../../wp-content/images/Home/11/TradingAppsIcon/AVFXMobileApps.png" alt=""> Avfx Mobile App</span>
-                                                            </a>
-                                                        </li> -->
                                                     </ul>
                                                 </div>
                                             </div>
@@ -2160,6 +2396,7 @@
             </section>
         </div>
     </div>
+	
 	<link rel='stylesheet' id='e-animations-css'
 		href='../../wp-content/plugins/elementor/assets/lib/animations/animations.min225e.css?ver=3.19.0' media='all' />
 	<script src="../../wp-content/themes/hello-elementor/assets/js/hello-frontend.min8a54.js?ver=1.0.0"
