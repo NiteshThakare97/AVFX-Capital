@@ -797,6 +797,10 @@ body:not(.rtl) .elementor-244 .elementor-element.elementor-element-1e9d8f4 .elem
 	height: 666px;
 	margin-left: -124px;
 }
+
+hr {
+    opacity: 1;
+}
 /* Platform Css  */
 
 
