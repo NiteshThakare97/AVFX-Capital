@@ -2275,8 +2275,17 @@ li {
 .elementor-1315 .elementor-element.elementor-element-822881c .elementskit-infobox:hover img {
     content: url(../../../../../images/About/03/Icon/White/01.png);
 }
+#regulation .elementor-element-822881c .elementskit-infobox:hover img {
+    content: url(../../../../../images/Home/11/Downloadgrey.png);
+}
 .elementor-1315 .elementor-element.elementor-element-a6b41fe .elementskit-infobox:hover img {
     content: url(../../../../../images/About/03/Icon/White/02.png);
+}
+#regulation .elementor-element-a6b41fe .elementskit-infobox:hover img {
+    content: url(../../../../../images/Home/11/Downloadgrey.png);
+}
+#regulation .elementor-element-a6b41fe .box-body:hover h5, #regulation .elementor-element-822881c .box-body:hover h5 {
+    color: #fff;
 }
 .elementor-1315 .elementor-element.elementor-element-cc4192d .elementskit-infobox:hover img {
     content: url(../../../../../images/About/03/Icon/White/03.png);
