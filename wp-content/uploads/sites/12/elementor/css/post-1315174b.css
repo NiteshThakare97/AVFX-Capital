@@ -508,6 +508,15 @@ body.rtl .elementor-1315 .elementor-element.elementor-element-134031a {
     border-color: #bec5d5;
     border-radius: 10px;
 }
+#regulation .elementor-element-a6b41fe .elementskit-infobox, #regulation .elementor-element-822881c .elementskit-infobox,
+#certificate .elementor-element-a6b41fe .elementskit-infobox, #certificate .elementor-element-822881c .elementskit-infobox {
+    background-color: #e8ebf2;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #bec5d5;
+    border-radius: 50px;
+}
 
 .elementor-1315 .elementor-element.elementor-element-a6b41fe .elementskit-infobox:hover {
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
@@ -2275,17 +2284,14 @@ li {
 .elementor-1315 .elementor-element.elementor-element-822881c .elementskit-infobox:hover img {
     content: url(../../../../../images/About/03/Icon/White/01.png);
 }
-#regulation .elementor-element-822881c .elementskit-infobox:hover img {
-    content: url(../../../../../images/Home/11/Downloadgrey.png);
+#regulation .elementor-element-822881c .elementskit-infobox:hover img, #certificate .elementor-element-822881c .elementskit-infobox:hover img {
+    content: url(../../../../../images/About/Regulation/01.png);
 }
 .elementor-1315 .elementor-element.elementor-element-a6b41fe .elementskit-infobox:hover img {
     content: url(../../../../../images/About/03/Icon/White/02.png);
 }
 #regulation .elementor-element-a6b41fe .elementskit-infobox:hover img {
-    content: url(../../../../../images/Home/11/Downloadgrey.png);
-}
-#regulation .elementor-element-a6b41fe .box-body:hover h5, #regulation .elementor-element-822881c .box-body:hover h5 {
-    color: #fff;
+    content: url(../../../../../images/About/Regulation/02copy.png);
 }
 .elementor-1315 .elementor-element.elementor-element-cc4192d .elementskit-infobox:hover img {
     content: url(../../../../../images/About/03/Icon/White/03.png);
@@ -2332,6 +2338,104 @@ li {
     padding-right: 23px;
     line-height: 25px;
 }
+/* Regulation  */
+#regulation .box-body h3, #certificate .box-body h3 {
+    font-size: 24px;
+}
+#regulation-img1, #certificate-img1 {
+    margin: 10px 0px 20px;
+}
+#regulation .elementor-element-17d7e74 {
+    background-image: url(../../../../../images/About/Regulation/Banner-Regulation.png);
+    padding: 8em 1em 8em 1em;
+}
+#certificate .elementor-element-17d7e74 {
+    background-image: url(../../../../../images/About/GoodSanding/Banner.png);
+    padding: 8em 1em 8em 1em;
+}
+#regulation .elementor-element-f2ef31f, #certificate .elementor-element-f2ef31f {
+    text-align: center;
+    padding: 0px;
+}
+#regulation .elementor-element-5c5db53, #certificate  .elementor-element-5c5db53 {
+    background: linear-gradient(180deg, #283e77, #1a3062);
+}
+#regulation .elementor-element-5c5db53 hr, #certificate .elementor-element-5c5db53 hr {
+    width: 93%;
+    border: none;
+    background: #e4000d;
+    height: 2px;
+}
+#regulation .elementor-element-5c5db53 h5, #certificate .elementor-element-5c5db53 h5 {
+    font-size: 12px;
+    color: #59637e;
+    font-weight: 500;
+}
+#regulation .elementskit-infobox:hover h5, #certificate .elementskit-infobox:hover h5 {
+    color: #b2c1d8;
+}
+#regulation .elementor-element-5c5db53 h4, #certificate .elementor-element-5c5db53 h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+#regulation .elementor-element-5c5db53 .col-md-4 button, #certificate .elementor-element-5c5db53 .col-md-4 button {
+    padding: 15px 12px;
+    border-radius: 8px;
+    background-color: #e4000d;
+    border-color: #e4000d;
+    color: #fff;
+}
+#regulation .elementor-element-5c5db53 .col-md-4, #certificate .elementor-element-5c5db53 .col-md-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-end;
+}
+#regulation .elementor-element-5c5db53 .col-md-8, #certificate .elementor-element-5c5db53 .col-md-8 {
+    padding: 27px 13px 15px 15px;
+}
+#box-body-1 {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border: solid #9299a9;
+    border-width: 0px 8px 8px 8px;
+    border-radius: 0px 0px 50px 50px;
+    z-index: 1;
+    bottom: 0px;
+}
+#regulation .elementskit-infobox:hover, #certificate .elementskit-infobox:hover {
+    background: #07163d;
+    border-color: #07163d;
+}
+#regulation .elementskit-infobox:hover h4, #regulation .elementskit-infobox:hover p, #certificate .elementskit-infobox:hover h4, #certificate .elementskit-infobox:hover p {
+    color: #fff;
+}
+#regulation .elementskit-infobox .box-body, #certificate .elementskit-infobox .box-body {
+    padding: 20px 30px 40px 30px;
+}
+#regulation .elementskit-infobox:hover #box-body-1, #certificate .elementskit-infobox:hover #box-body-1 {
+    border-color: #e4000d;
+}
+#regulation-img2 {
+    margin: 0px 0px 12px;
+}
+#certificate .elementor-element-be78210 .elementor-heading-title {
+    letter-spacing: 0px;
+    padding-right: 60px;
+    color: #fff;
+    font-weight: 500;
+    text-align: end;
+}
+#certificate-icon {
+    position: absolute;
+    top: -90px;
+}
+#certificate .elementor-element-5c5db53 {
+    padding: 8em 1em 5em 1em;
+}
+
+
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     .elementor-1315 .elementor-element.elementor-element-17d7e74 {
@@ -2358,6 +2462,15 @@ li {
     }
     .elementor-1315 .elementor-element.elementor-element-8511e14 {
         padding-right: 0px;
+    }
+    #regulation .elementor-element-17d7e74, #certificate .elementor-element-17d7e74 {
+        padding: 5em 1em 4em 1em;
+    }
+    #certificate .elementor-element-be78210 .elementor-heading-title {
+        padding-right: 0px;
+    }
+    #certificate-icon img {
+        width: 74%;
     }
 }
 
@@ -2397,6 +2510,15 @@ li {
     }
     .elementor-1315 .elementor-element.elementor-element-49d3ae3 hr {
         margin: 35px auto 0px;
+    }
+    #regulation .elementor-element-17d7e74, #certificate .elementor-element-17d7e74 {
+        padding: 2em 1em 2em 1em;
+    }
+    #certificate .elementor-element-be78210 .elementor-heading-title {
+        padding-right: 0px;
+    }
+    #certificate-icon img {
+        width: 71%;
     }
 }
 
