@@ -2388,7 +2388,7 @@ li {
 #regulation .elementor-element-5c5db53 .col-md-4, #certificate .elementor-element-5c5db53 .col-md-4 {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: flex-end;
     justify-content: flex-end;
 }
 #regulation .elementor-element-5c5db53 .col-md-8, #certificate .elementor-element-5c5db53 .col-md-8 {
