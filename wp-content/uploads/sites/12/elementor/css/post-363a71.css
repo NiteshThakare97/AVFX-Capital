@@ -7223,7 +7223,7 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 	}
 
 	#tab-section {
-		margin-left: auto;
+		margin-left: auto !important;
 		margin-right: auto;
 		margin-top: -110px;
 		width: 90%;
