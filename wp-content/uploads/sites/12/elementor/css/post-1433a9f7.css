@@ -4577,8 +4577,11 @@ body:not(.rtl)
 
 /* Partnership  */
 #partnership .elementor-element-47527c3 {
-  padding: 7em 1em 6em 1em;
+  padding: 7em 1em 7em 1em;
   margin-top: 95px;
+  background-image: url(../../../../../images/Partnership/01/MainBanner-refer-a-friend.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #partnership .elementor-element-935e055 li h4 {
   margin: 16px 0px 3px 0px;
@@ -4658,10 +4661,13 @@ body:not(.rtl)
   }
 
   /* IB Programme  */
-  #partnership-1 .elementor-element-47527c3,
-  #partnership .elementor-element-47527c3 {
+  #partnership-1 .elementor-element-47527c3 {
     margin-top: 89px;
     padding: 4em 3em 6em 3em;
+  }
+  #partnership .elementor-element-47527c3 {
+    margin-top: 89px;
+    padding: 4em 3em 5em 3em;
   }
   #partnership-1 .elementor-element-1b56b81 > .elementor-widget-container {
     padding: 0em;
@@ -4713,10 +4719,13 @@ body:not(.rtl)
   }
 
   /* IB Programme  */
-  #partnership-1 .elementor-element-47527c3,
-  #partnership .elementor-element-47527c3 {
+  #partnership-1 .elementor-element-47527c3 {
     margin-top: 84px;
     padding: 4em 3em 6em 3em;
+  }
+  #partnership .elementor-element-47527c3 {
+    margin-top: 84px;
+    padding: 1em 0em 2em 0em;
   }
   #partnership-1 .elementor-element-5cd16ce {
     width: 100%;
