@@ -7127,8 +7127,8 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 		margin-bottom: 5px;
 	}
 	#tab-section {
-		width: 367px;
-		margin-left: -92px;
+		width: 367px !important;
+		margin-left: -92px !important;
 	}
 	.elementor-36 .elementor-element.elementor-element-7781c17>.elementor-widget-container {
 		padding: 40px 93px 20px 20px;
