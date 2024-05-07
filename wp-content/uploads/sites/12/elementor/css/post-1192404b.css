@@ -2572,6 +2572,20 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     border-left: none !important;
 }
 
+#cfd-signup-btn button {
+    color: #e2000c;
+    background-color: #ffffffe6;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 11px 0px #555b6a;
+}
+#cfd-signup-btn button:hover {
+    color: #ffffffc2;
+    background-color: #4367b7;
+}
+
+
 /* Metals css*/
 #metal-banner {
     background-image: url(../../../../../images/Metals/01/Mainbanner.png);
@@ -2684,6 +2698,12 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     position: absolute;
     top: 34%;
 }
+#metal-sign-btn1 a {
+    font-size: 25px;
+    color: #fe0000;
+    text-decoration: underline;
+}
+
 
 /* Shares CSS  */
 #shares-banner {
@@ -2751,7 +2771,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 
 #shares .elementor-element-18bbdce {
     background: linear-gradient(180deg, #253a71, #182e60);
-    padding: 6em 1em 0em 1em;
+    padding: 3em 1em 0em 1em;
 }
 
 #shares-sec4-loti {
@@ -2759,6 +2779,22 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     right: 0px;
     top: 0px;
 }
+#shares .elementor-element-039eb48>.elementor-container, #commodities .elementor-element-039eb48>.elementor-container, #indices .elementor-element-039eb48>.elementor-container {
+    max-width: 95%;
+    margin: auto;
+}
+#shares .elementor-element-ba47fab, #commodities .elementor-element-ba47fab, #indices .elementor-element-ba47fab {
+    text-align: left;
+}
+#shares .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap, #commodities .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap, #indices .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap {
+    justify-content: space-between;
+    align-items: center;
+}
+#shares-btn-1 button {
+    padding: .8rem 1.5rem;
+    border-radius: 7px;
+}
+
 
 /* Commodities css */
 #commodities-banner {
@@ -2883,7 +2919,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     font-size: 18px;
 }
 #commodities .elementor-element-18bbdce {
-    padding: 3em 1em 2em 1em;
+    padding: 3em 1em 0em 1em;
     background-image: none;
     /* background-image: url(../../../../../images/CFD/02/Mesh.png); */
     background-color: #22396f;
@@ -2922,7 +2958,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     font-size: 18px;
 }
 #cryptocurrency .elementor-element-23fe73e {
-    padding: 1em 1em 4em 1em;
+    padding: 1em 1em 1em 1em;
     background-image: url(../../../../../images/CFD/02/Mesh.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -3029,6 +3065,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     background-image: url(../../../../../images/Copy-Trading/02/Section02BG.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 4em 1em 2em 1em;
 }
 #copy-trading .elementor-element-23fe73e .elementor-col-25 .elementor-widget-wrap {
     background-color: #fff;
@@ -3401,7 +3438,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 
     #cfd-sec3-graphics {
         right: 0px;
-        top: 366px;
+        top: 424px;
     }
 
     #cfd-sec3-graphics-2 {

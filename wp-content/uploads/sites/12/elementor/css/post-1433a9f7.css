@@ -4574,6 +4574,12 @@ body:not(.rtl)
 #platform .elementor-flip-box .elementor-view-stacked .elementor-icon {
   background-color: #253a7b78;
 }
+#platform-signup-btn button {
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 4px 11px 0px #555b6a;
+}
 
 /* Partnership  */
 #partnership .elementor-element-47527c3 {
@@ -4641,6 +4647,11 @@ body:not(.rtl)
   font-weight: 300;
   color: #fff;
   margin-bottom: 44px;
+}
+#ib-program-sign-btn1 a {
+  font-size: 25px;
+  color: #fe0000;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
