@@ -2786,7 +2786,11 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 #shares .elementor-element-ba47fab, #commodities .elementor-element-ba47fab, #indices .elementor-element-ba47fab {
     text-align: left;
 }
-#shares .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap, #commodities .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap, #indices .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap {
+#shares .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap{
+    justify-content: center;
+    align-items: center;
+}
+#commodities .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap, #indices .elementor-element-0d0ae2d.elementor-column>.elementor-widget-wrap {
     justify-content: space-between;
     align-items: center;
 }
