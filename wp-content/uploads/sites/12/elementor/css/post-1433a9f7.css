@@ -4530,7 +4530,7 @@ body:not(.rtl)
   padding: 30px 30px 30px 30px;
   background: linear-gradient(180deg, #283d76, #1a3062);
   border-radius: 13px;
-  height: 296px;
+  height: auto;
 }
 #platform .elementor-element-166fca0 .elementor-price-table__heading {
   color: #fff;
@@ -4654,8 +4654,67 @@ body:not(.rtl)
   text-decoration: underline;
 }
 
+#trading-pltf-apps button:hover {
+  background: #ffc61d;
+  color: #20283e;
+  border: none;
+}
+#platform #trading-pltf-apps {
+  border-bottom: none;
+}
+#trading-pltf-apps button:hover img {
+  content: url(../../../../../images/Home/11/DownloadBlue.png);
+}
+#other-plat-links {
+  background: #4366b7;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  margin: 8px;
+  padding: 20px 0px 30px;
+}
+#other-plat-links .col {
+  margin: 0px 26px;
+}
+#avfx-wallet-downloadbtn {
+  justify-content: center;
+}
+
+#mt4-banner {
+  background-image: url(../../../../../images/Platform/PlatformBanner/MT4.png) !important;
+  padding: 8em 1em 8em 1em;
+}
+#mt5-banner {
+  background-image: url(../../../../../images/Platform/PlatformBanner/MT5.png) !important;
+  padding: 8em 1em 8em 1em;
+}
+#cTrader-banner {
+  background-image: url(../../../../../images/Platform/PlatformBanner/cTrader.png) !important;
+  padding: 8em 1em 8em 1em;
+}
+#wallet-banner {
+  background-image: url(../../../../../images/Platform/PlatformBanner/AVFX-Wallet.png) !important;
+  padding: 8em 1em 8em 1em;
+}
+
+#mt4-banner .elementor-element-7564da7 .elementor-heading-title,
+#mt5-banner .elementor-element-7564da7 .elementor-heading-title,
+#cTrader-banner .elementor-element-7564da7 .elementor-heading-title,
+#wallet-banner .elementor-element-7564da7 .elementor-heading-title{
+  text-align: left;
+  padding-left: 145px;
+}
+
+/* FAQ CSS */
+
+#faq .elementor-element-47527c3 {
+  background-image: url(../../../../../images/FAQ/MainBanner.png);
+  margin-top: 95px;
+}
+
+
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-  #platform .elementor-element-47527c3 {
+  #platform .elementor-element-47527c3, #faq .elementor-element-47527c3 {
     margin-top: 88px;
     padding: 9em 3em 0em 3em;
   }
@@ -4692,10 +4751,19 @@ body:not(.rtl)
     top: auto;
     bottom: 2%;
   }
+
+  /* Platform Banners  */
+  #mt4-banner, #mt5-banner, #cTrader-banner, #wallet-banner {
+    padding: 5em 0em 4em 0em !important;
+  }
+  #platform .elementor-element-839fce3 {
+    width: 100%;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
-  #platform .elementor-element-47527c3 {
+  #platform .elementor-element-47527c3, #faq .elementor-element-47527c3 {
     margin-top: 83px;
     padding: 8em 0em 0em 0em;
     background-position: center;
@@ -4751,5 +4819,27 @@ body:not(.rtl)
   #refer-friend-loti {
     top: auto;
     bottom: 2%;
+  }
+
+  #other-plat-links .col{
+    margin: 8px 3px;
+    flex: 1 0 34%;
+  }
+  #other-plat-links .col img {
+    width: 138px;
+  }
+  #other-plat-links {
+    margin: 0px;
+    padding: 20px 10px 30px;
+  }
+
+    /* Platform Banners  */
+  #mt4-banner, #mt5-banner, #cTrader-banner, #wallet-banner {
+    padding: 2em 0em 2em 0em !important;
+  }
+
+  #mt4-banner .elementor-element-7564da7 .elementor-heading-title, #mt5-banner .elementor-element-7564da7 .elementor-heading-title, #cTrader-banner .elementor-element-7564da7 .elementor-heading-title, #wallet-banner .elementor-element-7564da7 .elementor-heading-title{
+    padding-left: 39px;
+    font-size: 12px;
   }
 }

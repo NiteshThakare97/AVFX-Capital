@@ -10,12 +10,13 @@
 .elementor-416 .elementor-element.elementor-element-62fd6b6 {
     overflow: hidden;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 10em 1em 17em 1em;
+    padding: 20em 1em 1em 11em;
+    margin-top: 95px;
 }
 
 .elementor-416 .elementor-element.elementor-element-62fd6b6:not(.elementor-motion-effects-element-type-background),
 .elementor-416 .elementor-element.elementor-element-62fd6b6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../../../../images/Contact/01/MainBanner.png");
+    background-image: url("../../../../../images/Contact/Elements-Contact/MainBannerforChat.png");
     /* background-position: center center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,9 +110,8 @@ body:not(.rtl) .elementor-416 .elementor-element.elementor-element-3dc0d40 .elem
 
 .elementor-416 .elementor-element.elementor-element-4e753d4 {
     padding: 0em 1em 2em 1em;
-    z-index: 2;
-    background-color: #dfe3ef;
-    margin-bottom: 3em;
+    /* z-index: 2; */
+    background: linear-gradient(180deg, #08173e, #010310);
 }
 
 .elementor-416 .elementor-element.elementor-element-436d2de:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
@@ -120,21 +120,21 @@ body:not(.rtl) .elementor-416 .elementor-element.elementor-element-3dc0d40 .elem
 }
 
 .elementor-416 .elementor-element.elementor-element-436d2de>.elementor-element-populated {
-    border-style: solid;
+    /* border-style: solid;
     border-width: 0px 0px 10px 0px;
-    border-color: #abb1bd;
+    border-color: #abb1bd; */
     box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.15);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin: -7em 0em 0em 0em;
+    margin: 3em 0em 0em 0em;
     --e-column-margin-right: 0em;
     --e-column-margin-left: 0em;
-    padding: 2em 3em 2em 3em;
+    padding: 3em 3em 2em 3em;
 }
 
 .elementor-416 .elementor-element.elementor-element-436d2de>.elementor-element-populated,
 .elementor-416 .elementor-element.elementor-element-436d2de>.elementor-element-populated>.elementor-background-overlay,
 .elementor-416 .elementor-element.elementor-element-436d2de>.elementor-background-slideshow {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .elementor-416 .elementor-element.elementor-element-436d2de>.elementor-element-populated>.elementor-background-overlay {
@@ -326,7 +326,7 @@ body .elementor-416 .elementor-element.elementor-element-cd6caad .elementor-labe
 .elementor-416 .elementor-element.elementor-element-929fed3 {
     overflow: hidden;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 5em 1em 5em 1em;
+    padding: 1em 1em 0em 1em;
 }
 
 .elementor-416 .elementor-element.elementor-element-929fed3:not(.elementor-motion-effects-element-type-background),
@@ -368,7 +368,7 @@ body .elementor-416 .elementor-element.elementor-element-cd6caad .elementor-labe
 
 @media(max-width:1024px) {
     .elementor-416 .elementor-element.elementor-element-62fd6b6 {
-        padding: 10em 3em 11em 3em;
+        padding: 10em 0em 1em 7em;
     }
 
     .elementor-416 .elementor-element.elementor-element-38f9b94 .elementor-heading-title {
@@ -509,7 +509,7 @@ body .elementor-416 .elementor-element.elementor-element-cd6caad .elementor-labe
     }
 
     .elementor-416 .elementor-element.elementor-element-62fd6b6 {
-        padding: 9em 1.5em 10em 1.5em;
+        padding: 5em 0em 0em 3em;
     }
 
     .elementor-416 .elementor-element.elementor-element-d8459d0>.elementor-element-populated {
@@ -637,3 +637,115 @@ body .elementor-416 .elementor-element.elementor-element-cd6caad .elementor-labe
 /* .elementor-element-1b5588d .elementor-container {
     align-items: baseline;
 } */
+
+/* Contact css  */
+
+#contact .elementor-element-8987cd3 {
+    padding: 45% 7% 9% 8%;
+}
+#address-card1, #address-card2, #address-card3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#address-card1 {
+    background-image: url(../../../../../images/Contact/Elements-Contact/03/St.Vincent2.png);
+}
+#address-card2 {
+    background-image: url(../../../../../images/Contact/Elements-Contact/03/Dubai.png);
+}
+#address-card3 {
+    background-image: url(../../../../../images/Contact/Elements-Contact/03/Gorgia.png);
+}
+#contact hr {
+    height: 1px;
+    background-color: #fff;
+    border: none;
+    margin: 15px 0px 15px;
+}
+#contact .elementor-element-929fed3 {
+    background-color: #010310;
+}
+#contact .elementor-element-929fed3 .elementor-container {
+    justify-content: space-around;
+}
+#contact .elementor-element-929fed3 h2 {
+    color: #dfe3ef;
+    margin: 8px auto;
+    font-weight: 400;
+}
+#cont-faq-sec {
+    background-color: #273c75;
+    border-radius: 15px;
+    padding: 30px 30px 30px 80px;
+    margin: 4% 2%;
+}
+#cont-faq-sec .row {
+    align-items: center;
+}
+#cont-faq-sec h1{
+    font-size: 70px;
+    color: #fefefe;
+}
+#cont-faq-sec button{
+    background-color: #fff;
+    color: #e3010d;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    margin-top: 30%;
+}
+#cont-faq-sec button:hover {
+    background-color: #e3010d;
+    color: #fff
+}
+#contact .elementor-element-01618e8 button {
+    background: #e3010d;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 6px;
+    border: none;
+}
+#contact .elementor-element-01618e8 p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#contact .elementor-element-01618e8 button:hover {
+    background-color: #fff;
+    color: #e3010d;
+}
+#contact .elementor-element-eea81f3 {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .elementor-416 .elementor-element.elementor-element-62fd6b6{
+        margin-top: 90px;
+    }
+    #contact .elementor-element-8987cd3 {
+        padding: 0% 1% 0% 1%;
+        height: 298px;
+    }
+    #cont-faq-sec button {
+        padding: 0.5rem 1rem;
+    }
+    #cont-faq-sec {
+        padding: 30px 30px 30px 34px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .elementor-416 .elementor-element.elementor-element-62fd6b6 {
+        margin-top: 84px;
+    }
+    #contact .elementor-element-01618e8 button {
+        padding: 7px 15px;
+    }
+    #cont-faq-sec button {
+        margin: 5% 0%;
+    }
+    #cont-faq-sec {
+        padding: 30px 30px 30px 30px;
+    }
+}
