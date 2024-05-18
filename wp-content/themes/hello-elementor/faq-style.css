@@ -10,21 +10,22 @@
   position: relative;
   display: block;
   margin: 0;
-  padding: 13px 16px;
+  padding: 25px 25px;
   background-color: #fff;
   border: 0;
   border-bottom: 1px solid #ddd;
   border-radius: 0;
-  color: #616161;
+  color: #20283d;
   transition: background-color 0.2s ease;
 }
 .faq-nav .nav-link:hover {
   background-color: #f6f6f6;
+  color: #e4000d;
 }
 .faq-nav .nav-link.active {
-  background-color: #f6f6f6;
+  background-color: #e40003;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.87);
+  color: #ffffff;
 }
 .faq-nav .nav-link:last-of-type {
   border-bottom-left-radius: 2px;
@@ -44,9 +45,9 @@
   border-radius: 0;
 }
 .tab-content .card-header {
-  padding: 15px 16px;
+  padding: 25px 25px;
   border-radius: 0;
-  background-color: #f6f6f6;
+  background-color: #243a71;
 }
 .tab-content .card-header h5 {
   margin: 0;
@@ -57,12 +58,13 @@
   padding: 0;
   border: 0;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
   text-align: left;
   white-space: normal;
 }
 .tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
   text-decoration: none;
+  color: #e40003;
 }
 .tab-content .card-body p {
   color: #616161;
@@ -77,4 +79,39 @@
 
 .collapse.show .card-body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* My CSs  */
+#faq-sec1 {
+  padding: 50px 0px;
+  background: #ebf0f6;
+}
+#faq-sec1 button {
+  background: transparent;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 20px;
+}
+#faq .elementor-element-7564da7 h2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #e4000d;
+}
+#faq .elementor-element-47527c3 {
+  padding: 7em 1em 7em 1em;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  #faq .elementor-element-47527c3 {
+    padding: 3em 1em 3em 1em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #faq .elementor-element-47527c3 {
+    padding: 1em 1em 1em 1em;
+  }
+  #faq .elementor-element-7564da7 h2 {
+    font-size: 20px;
+  }
 }

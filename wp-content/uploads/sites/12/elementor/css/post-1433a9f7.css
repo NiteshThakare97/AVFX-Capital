@@ -4429,6 +4429,9 @@ body:not(.rtl)
   .elementor-1433 .elementor-element.elementor-element-839fce3 {
     width: 50%;
   }
+  #platform .elementor-element-839fce3 {
+    width: 100%;
+  }
 
   .elementor-1433 .elementor-element.elementor-element-e9d88af {
     width: 50%;
@@ -4654,14 +4657,12 @@ body:not(.rtl)
   text-decoration: underline;
 }
 
-#trading-pltf-apps button:hover {
-  background: #ffc61d;
-  color: #20283e;
-  border: none;
-}
-#platform #trading-pltf-apps {
+#platform .elementor-element-839fce3 #trading-pltf-apps {
   border-bottom: none;
+  padding: 40px 0px 20px 0px;
+  justify-content: center;
 }
+
 #trading-pltf-apps button:hover img {
   content: url(../../../../../images/Home/11/DownloadBlue.png);
 }
@@ -4703,6 +4704,28 @@ body:not(.rtl)
 #wallet-banner .elementor-element-7564da7 .elementor-heading-title{
   text-align: left;
   padding-left: 145px;
+}
+
+#platform .elementor-element-839fce3 #down-ptf-icons-1, #platform .elementor-element-839fce3 #down-ptf-icons-2 {
+  width: 50px;
+  height: 50px;
+  padding: 11px;
+  margin-right: 10px;
+}
+#platform .elementor-element-839fce3 #down-ptf-icons-2 {
+  padding: 5px 9px 5px 9px;
+}
+#platform .elementor-element-166fca0 button {
+  margin-top: 5px;
+  background: #c30423;
+  border-radius: 10px;
+  padding: 1rem 2.3rem;
+  margin-left: 15px;
+  border: none;
+}
+#platform .elementor-element-166fca0 button:hover {
+  background: #e3010d;
+  color: #fff;
 }
 
 /* FAQ CSS */
