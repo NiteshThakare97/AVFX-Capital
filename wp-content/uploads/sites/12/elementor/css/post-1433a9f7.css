@@ -4657,7 +4657,7 @@ body:not(.rtl)
   text-decoration: underline;
 }
 
-#platform .elementor-element-839fce3 #trading-pltf-apps {
+#platform .elementor-element-839fce3 #trading-pltf-apps, #avfx-wallet-downloadbtn #trading-pltf-apps {
   border-bottom: none;
   padding: 40px 0px 20px 0px;
   justify-content: center;
@@ -4706,7 +4706,7 @@ body:not(.rtl)
   padding-left: 145px;
 }
 
-#platform .elementor-element-839fce3 #down-ptf-icons-1, #platform .elementor-element-839fce3 #down-ptf-icons-2 {
+#platform .elementor-element-839fce3 #down-ptf-icons-1, #platform .elementor-element-839fce3 #down-ptf-icons-2, #avfx-wallet-downloadbtn #down-ptf-icons-1, #avfx-wallet-downloadbtn #down-ptf-icons-2 {
   width: 50px;
   height: 50px;
   padding: 11px;
@@ -4715,7 +4715,8 @@ body:not(.rtl)
 #platform .elementor-element-839fce3 #down-ptf-icons-2 {
   padding: 5px 9px 5px 9px;
 }
-#platform .elementor-element-166fca0 button {
+
+#platform .elementor-element-166fca0 button, #avfx-wallet-downloadbtn button {
   margin-top: 5px;
   background: #c30423;
   border-radius: 10px;
@@ -4723,7 +4724,7 @@ body:not(.rtl)
   margin-left: 15px;
   border: none;
 }
-#platform .elementor-element-166fca0 button:hover {
+#platform .elementor-element-166fca0 button:hover, #avfx-wallet-downloadbtn button:hover {
   background: #e3010d;
   color: #fff;
 }
