@@ -1615,7 +1615,7 @@
 														content: "" !important
 													}
 												</style>
-												<form class="elementor-form" method="post" name="New Form" action="javascript:void(0);" onsubmit="sendEmail()">
+												<form id="myForm" action="send_mail.php" method="post">
 													<input type="hidden" name="post_id" value="416" />
 													<input type="hidden" name="form_id" value="cd6caad" />
 													<input type="hidden" name="referer_title" value="Contact" />
@@ -1627,7 +1627,7 @@
 															class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
 															<label for="form-field-name" class="elementor-field-label">
 																Name </label>
-															<input size="1" type="text" name="form_fields[name]"
+															<input size="1" type="text" name="form-field-name"
 																id="form-field-name"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Name">
@@ -1637,7 +1637,7 @@
 															<label for="form-field-field_f77c348"
 																class="elementor-field-label">
 																Phone </label>
-															<input size="1" type="tel" name="form_fields[field_f77c348]"
+															<input size="1" type="tel" name="form-field-field_f77c348"
 																id="form-field-field_f77c348"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Phone" pattern="[0-9()#&amp;+*-=.]+"
@@ -1648,7 +1648,7 @@
 															class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
 															<label for="form-field-email" class="elementor-field-label">
 																Email </label>
-															<input size="1" type="email" name="form_fields[email]"
+															<input size="1" type="email" name="form-field-email"
 																id="form-field-email"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Email" required="required"
@@ -1660,7 +1660,7 @@
 																class="elementor-field-label">
 																Subject </label>
 															<input size="1" type="text"
-																name="form_fields[field_8c8086b]"
+																name="form-field-field_8c8086b"
 																id="form-field-field_8c8086b"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Subject">
@@ -1672,7 +1672,7 @@
 																Message </label>
 															<textarea
 																class="elementor-field-textual elementor-field  elementor-size-md"
-																name="form_fields[message]" id="form-field-message"
+																name="form-field-message" id="form-field-message"
 																rows="5" placeholder="Message"></textarea>
 														</div>
 														<div
@@ -1680,10 +1680,6 @@
 															<button type="submit"
 																class="elementor-button elementor-size-md">
 																<span>
-																	<!-- <span
-																		class="elementor-align-icon-right elementor-button-icon">
-																		<i aria-hidden="true"
-																			class="fas fa-chevron-right"></i> </span> -->
 																	<span class="elementor-button-text">Send
 																		Message</span>
 																</span>
@@ -1691,9 +1687,12 @@
 														</div>
 													</div>
 												</form>
+												<p id="status"></p>
+
+    <script src="mail-script.js"></script>
 
 												<!-- javascript to send email  -->
-												<script>
+												<!-- <script>
 													function sendEmail() {
 														const name = document.getElementById('form-field-name').value;
 														const phone = document.getElementById('form-field-field_f77c348').value;
@@ -1710,7 +1709,7 @@
 														// Open the default email client with the mailto link
 														window.location.href = mailtoLink;
 													}
-												</script>
+												</script> -->
 											</div>
 										</div>
 									</div>
@@ -1868,7 +1867,7 @@
 						<h4 style="color: #fff; font-weight: 500;">Feel free to ask your questions to us</h4>
 					</div>
 					<div class="col-md-2">
-						<a href="../platform/faq.html">
+						<a href="#">
 							<button>Explore Now</button>
 						</a>
 					</div>
@@ -2258,8 +2257,15 @@
                                     <p>1004, Prism Tower, Business Bay, <br>
                                         Dubai, UAE <br>
                                         Working hours: 24/5 GMT</p>
+									<p><img src="../../wp-content/images/Footer/Call.png" alt="" style="margin-right: 5px;"> (04) 5549811</p>
                                 </div>
                             </div>
+							<!-- <div class="elementor-element elementor-element-8506ca9 elementor-widget elementor-widget-text-editor" data-id="8506ca9" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <img src="../../wp-content/images/Footer/icons8-ringing-phone-50.png" alt="" style="width: 20px;">
+                                    <p>(04) 5549811</p>
+                                </div>
+                            </div> -->
                             <div class="elementor-element elementor-element-8506ca9 elementor-widget elementor-widget-text-editor" data-id="8506ca9" data-element_type="widget" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
                                     <img src="../../wp-content/images/Footer/Call.png" alt="" style="margin-right: 5px;">
@@ -2436,7 +2442,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="../platform/faq.html">
+                                                            <a href="#">
 
                                                                 <span class="elementor-icon-list-text">FAQ's</span>
                                                             </a>

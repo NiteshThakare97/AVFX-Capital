@@ -3218,6 +3218,14 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     margin: 16px 0px 8px;
 }
 
+/* Economic Calendar  */
+#economic-calendar .elementor-element-19ddc57>.elementor-element-populated {
+    padding: 0em;
+}
+#economic-calendar .elementor-element-d9e5c6c {
+    background: #69727d;
+    padding: 3em;
+}
 
 
 
