@@ -542,6 +542,22 @@
 		href="../../wp-json/oembed/1.0/embed4f8d?url=https%3A%2F%2Fwebkit.moxcreative.com%2Finvoux%2Ftemplate-kit%2Fcontact%2F&amp;format=xml" />
 	<meta name="generator"
 		content="Elementor 3.19.0; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
+
+	<!-- EmailJs script code  -->
+
+	<!-- <script src="mail-script.js"></script>
+
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "rZixlr_5s0Zo-NF5A",
+      });
+   })();
+</script> -->
+
 </head>
 
 <body
@@ -1615,12 +1631,12 @@
 														content: "" !important
 													}
 												</style>
-												<form id="myForm" action="send_mail.php" method="post">
-													<input type="hidden" name="post_id" value="416" />
+												<form onsubmit="emailSend(); reset(); return false;" method="post">
+													<!-- <input type="hidden" name="post_id" value="416" />
 													<input type="hidden" name="form_id" value="cd6caad" />
 													<input type="hidden" name="referer_title" value="Contact" />
 
-													<input type="hidden" name="queried_id" value="416" />
+													<input type="hidden" name="queried_id" value="416" /> -->
 
 													<div class="elementor-form-fields-wrapper elementor-labels-above">
 														<div
@@ -1628,7 +1644,7 @@
 															<label for="form-field-name" class="elementor-field-label">
 																Name </label>
 															<input size="1" type="text" name="form-field-name"
-																id="form-field-name"
+																id="name"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Name">
 														</div>
@@ -1638,10 +1654,9 @@
 																class="elementor-field-label">
 																Phone </label>
 															<input size="1" type="tel" name="form-field-field_f77c348"
-																id="form-field-field_f77c348"
+																id="phone"
 																class="elementor-field elementor-size-md  elementor-field-textual"
-																placeholder="Phone" pattern="[0-9()#&amp;+*-=.]+"
-																title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+																placeholder="Phone">
 
 														</div>
 														<div
@@ -1649,7 +1664,7 @@
 															<label for="form-field-email" class="elementor-field-label">
 																Email </label>
 															<input size="1" type="email" name="form-field-email"
-																id="form-field-email"
+																id="email"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Email" required="required"
 																aria-required="true">
@@ -1672,7 +1687,7 @@
 																Message </label>
 															<textarea
 																class="elementor-field-textual elementor-field  elementor-size-md"
-																name="form-field-message" id="form-field-message"
+																name="form-field-message" id="message"
 																rows="5" placeholder="Message"></textarea>
 														</div>
 														<div
@@ -1687,9 +1702,9 @@
 														</div>
 													</div>
 												</form>
-												<p id="status"></p>
-
-    <script src="mail-script.js"></script>
+												<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+												<script src="https://smtpjs.com/v3/smtp.js"></script>
+												<script src="mail-script.js"></script>
 
 												<!-- javascript to send email  -->
 												<!-- <script>
@@ -2421,7 +2436,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="#">
+                                                            <a href="../market/webinar.html">
 
                                                                 <span class="elementor-icon-list-text">Join our
 																	Webinar</span>
@@ -2435,8 +2450,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="#">
-
+                                                            <a href="../market/economic-calendar.html">
                                                                 <span class="elementor-icon-list-text">Economic
 																	Calendar</span>
                                                             </a>

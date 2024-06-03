@@ -2533,7 +2533,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 #cfd hr,
 #metals hr,
 #shares hr, #forex-trading-closure hr,
-#commodities hr, #indices hr, #cryptocurrency hr, #energies hr, #legal-information hr  {
+#commodities hr, #indices hr, #cryptocurrency hr, #energies hr, #legal-information hr, #economic-calendar hr  {
     width: 60px;
     height: 6px;
     background-color: #e4000d;
@@ -3221,10 +3221,88 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 /* Economic Calendar  */
 #economic-calendar .elementor-element-19ddc57>.elementor-element-populated {
     padding: 0em;
+    justify-content: end;
 }
 #economic-calendar .elementor-element-d9e5c6c {
-    background: #69727d;
     padding: 3em;
+    background: #edf0f5;
+}
+#economic-calendar .elementor-element-d9e5c6c p {
+    color: #212842b0;
+}
+#economic-calendar .elementor-element-d9e5c6c h5 {
+    margin: 16px 0px 8px;
+}
+#economic-calendar .elementor-element-1c6e573 {
+    padding: 0%;
+}
+#economic-sec3 {
+    background: linear-gradient(180deg, #0f244f, #22376e);
+}
+#economic-sec3 p {
+    font-size: 18px;
+    line-height: 30px;
+}
+#economic-sec3-loti {
+    position: absolute;
+    right: 10px;
+    top: -8px;
+}
+#economic-sec4 {
+    background: #edf0f5;
+}
+#economic-sec4 .elementor-col-33 .elementor-element-populated, #economic-sec4 .elementor-col-25 .elementor-element-populated {
+    background-color: #53689d;
+}
+#economic-sec4 .elementor-background-overlay {
+    background-image: none;
+}
+#economic-sec4 .elementor-col-33 .elementor-element-populated:hover, #economic-sec4 .elementor-col-25 .elementor-element-populated:hover {
+    background-color: #364973;
+}
+#economic-sec4 p, #economic-sec4 h3 {
+    color: #fff;
+    font-weight: 500;
+}
+#economic-sec4 .elementskit-infobox .elementskit-box-header .elementskit-info-box-icon {
+    margin: 0px;
+}
+#economic-sec4 .elementskit-infobox {
+    justify-content: space-between;
+}
+#economic-sec4-loti {
+    position: absolute;
+    left: 2%;
+}
+#economic-sec5 {
+    background: linear-gradient(90deg, #071538, #061333);
+}
+#economic-sec5 .elementor-view-stacked .elementor-icon {
+    background-color: #e4ebf3;
+    fill: #e3010f;
+    color: #e3010f;
+}
+#economic-sec5-loti {
+    position: absolute;
+    top: -40px;
+    left: 280px;
+}
+#economic-sec5 p {
+    font-weight: 400;
+}
+#economic-sec2 {
+    padding: 3em 1em 3em 1em;
+}
+#economic-sec2-loti {
+    position: absolute;
+    bottom: -63px;
+    left: 3%;
+}
+#economic-sec5-loti-1 {
+    position: absolute;
+}
+#economic-sec6-1 {
+    padding-right: 40px;
 }
 
 
@@ -3378,6 +3456,29 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #energies .elementor-element-255708c, #energies .elementor-element-6804e84 {
         width: 100%;
+    }
+
+    /* Economic Calendar  */
+    #economic-sec3-loti {
+        right: -20px;
+    }
+    #economic-sec4-loti {
+        top: -20px;
+    }
+    #economic-sec2-loti {
+        left: 0%;
+    }
+    #economic-sec2-loti img {
+        width: 90%;
+    }
+    #economic-sec5-loti-1 {
+        top: 93%;
+    }
+    #economic-sec5-loti-1 img {
+        width: 300px;
+    }
+    #economic-sec5 {
+        padding: 4em 2em 24em 2em;
     }
 }
 
@@ -3593,6 +3694,47 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #legal-information .elementor-element-5a2f1b0 h4 {
         margin-bottom: 10px;
+    }
+
+    /* Economic Calendar  */
+    #economic-sec5-loti {
+        position: absolute;
+        top: -37px;
+        left: 211px;
+    }
+    #economic-sec3-loti {
+        top: 47px;
+    }
+    #economic-sec3-loti img {
+        width: 40px;
+    }
+    #economic-sec2 {
+        padding: 0em 1em 20em 1em;
+    }
+    #economic-sec2-loti {
+        bottom: -300px;
+    }
+    #economic-sec4-loti img {
+        width: 55%;
+    }
+    #economic-sec6-1 {
+        padding-right: 0px;
+    }
+    #economic-sec5 {
+        padding-bottom: 32em;
+    }
+    #economic-sec5-loti-1 {
+        bottom: -32em;
+    }
+
+    .scrollable-container {
+        width: 100%;
+        overflow-x: auto; /* Enables horizontal scrolling */
+    }
+
+    /* Optional: Add some padding to make sure it doesn't stick to the edges */
+    .scrollable-container {
+        padding: 10px;
     }
 }
 
