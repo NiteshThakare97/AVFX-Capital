@@ -1631,9 +1631,9 @@
 														content: "" !important
 													}
 												</style>
-												<form onsubmit="emailSend(); reset(); return false;" method="post">
-													<!-- <input type="hidden" name="post_id" value="416" />
-													<input type="hidden" name="form_id" value="cd6caad" />
+												<form method="POST" id="form">
+													<input type="hidden" name="access_key" value="d05d1cf4-a468-4baa-9796-bc40a9a0f6b5">
+													<!-- <input type="hidden" name="form_id" value="cd6caad" />
 													<input type="hidden" name="referer_title" value="Contact" />
 
 													<input type="hidden" name="queried_id" value="416" /> -->
@@ -1643,7 +1643,7 @@
 															class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
 															<label for="form-field-name" class="elementor-field-label">
 																Name </label>
-															<input size="1" type="text" name="form-field-name"
+															<input size="1" type="text" name="Name"
 																id="name"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Name">
@@ -1653,7 +1653,7 @@
 															<label for="form-field-field_f77c348"
 																class="elementor-field-label">
 																Phone </label>
-															<input size="1" type="tel" name="form-field-field_f77c348"
+															<input size="1" type="tel" name="Phone"
 																id="phone"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Phone">
@@ -1663,7 +1663,7 @@
 															class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
 															<label for="form-field-email" class="elementor-field-label">
 																Email </label>
-															<input size="1" type="email" name="form-field-email"
+															<input size="1" type="email" name="Email Id"
 																id="email"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Email" required="required"
@@ -1675,8 +1675,8 @@
 																class="elementor-field-label">
 																Subject </label>
 															<input size="1" type="text"
-																name="form-field-field_8c8086b"
-																id="form-field-field_8c8086b"
+																name="Subject"
+																id="subject"
 																class="elementor-field elementor-size-md  elementor-field-textual"
 																placeholder="Subject">
 														</div>
@@ -1687,7 +1687,7 @@
 																Message </label>
 															<textarea
 																class="elementor-field-textual elementor-field  elementor-size-md"
-																name="form-field-message" id="message"
+																name="Message" id="message"
 																rows="5" placeholder="Message"></textarea>
 														</div>
 														<div
@@ -1701,30 +1701,60 @@
 															</button>
 														</div>
 													</div>
+													<div id="result"></div>
 												</form>
-												<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+
+												<!-- Script to send mail from WEB3FORMS  -->
+												<script src="https://web3forms.com/client/script.js" async defer></script>
+	
+	<script>
+	const form = document.getElementById('form');
+	const result = document.getElementById('result');
+	
+	form.addEventListener('submit', function(e) {
+	  e.preventDefault();
+	  const formData = new FormData(form);
+	  const object = Object.fromEntries(formData);
+	  const json = JSON.stringify(object);
+	  result.innerHTML = "Please wait..."
+	
+		fetch('https://api.web3forms.com/submit', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+					'Accept': 'application/json'
+				},
+				body: json
+			})
+			.then(async (response) => {
+				let json = await response.json();
+				if (response.status == 200) {
+					result.innerHTML = "Thank you for reaching out to us. Our team will contact you shortly.";
+				} else {
+					console.log(response);
+					result.innerHTML = json.message;
+				}
+			})
+			.catch(error => {
+				console.log(error);
+				result.innerHTML = "Something went wrong!";
+			})
+			.then(function() {
+				form.reset();
+				setTimeout(() => {
+					result.style.display = "none";
+				}, 10000);
+			});
+	});
+	</script>
+												<!-- Script to send mail from WEB3FORMS  -->
+
+
+
+												<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
 												<script src="https://smtpjs.com/v3/smtp.js"></script>
-												<script src="mail-script.js"></script>
+												<script src="mail-script.js"></script> -->
 
-												<!-- javascript to send email  -->
-												<!-- <script>
-													function sendEmail() {
-														const name = document.getElementById('form-field-name').value;
-														const phone = document.getElementById('form-field-field_f77c348').value;
-
-														const email = document.getElementById('form-field-email').value;
-														// Add more form field values as needed
-												
-														const subject = document.getElementById('form-field-field_8c8086b').value;
-
-														const message = document.getElementById('form-field-message').value;;
-												
-														const mailtoLink = `mailto:info@avfxcapital.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\n\nMobile: ' + phone + '\nEmail: ' + email)}`;
-														
-														// Open the default email client with the mailto link
-														window.location.href = mailtoLink;
-													}
-												</script> -->
 											</div>
 										</div>
 									</div>
@@ -2436,7 +2466,7 @@
                                                             </a>
                                                         </li>
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="../market/webinar.html">
+                                                            <a href="#">
 
                                                                 <span class="elementor-icon-list-text">Join our
 																	Webinar</span>

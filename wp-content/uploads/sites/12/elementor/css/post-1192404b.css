@@ -3289,6 +3289,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 }
 #economic-sec5 p {
     font-weight: 400;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 #economic-sec2 {
     padding: 3em 1em 3em 1em;
@@ -3303,6 +3304,11 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 }
 #economic-sec6-1 {
     padding-right: 40px;
+}
+
+/* Webinar  */
+#economic-sec4 button {
+    background: #e3010f;
 }
 
 
@@ -3721,10 +3727,10 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
         padding-right: 0px;
     }
     #economic-sec5 {
-        padding-bottom: 32em;
+        padding-bottom: 35em;
     }
     #economic-sec5-loti-1 {
-        bottom: -32em;
+        bottom: -35em;
     }
 
     .scrollable-container {

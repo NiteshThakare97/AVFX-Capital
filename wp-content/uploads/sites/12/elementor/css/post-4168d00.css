@@ -718,6 +718,9 @@ body .elementor-416 .elementor-element.elementor-element-cd6caad .elementor-labe
 #contact .elementor-element-eea81f3 {
     margin-bottom: 50px;
 }
+#result {
+    color: #e3010d;
+}
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
     .elementor-416 .elementor-element.elementor-element-62fd6b6{
