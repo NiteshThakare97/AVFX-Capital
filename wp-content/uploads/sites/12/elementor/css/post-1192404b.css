@@ -2530,7 +2530,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     background: linear-gradient(180deg, #970043, #c60321);
 }
 
-#cfd hr,
+#cfd hr, #webinar hr,
 #metals hr,
 #shares hr, #forex-trading-closure hr,
 #commodities hr, #indices hr, #cryptocurrency hr, #energies hr, #legal-information hr, #economic-calendar hr  {
@@ -3310,6 +3310,113 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 #economic-sec4 button {
     background: #e3010f;
 }
+#webinar-sec5 {
+    background: linear-gradient(180deg, #263c75, #273c75);
+}
+#webinar .elementor-element-78309de {
+    color: #000;
+}
+#webinar .elementor-element-78309de h5 {
+    font-size: 23px;
+}
+#webinar-sec5-1 .elementor-element-populated {
+    padding: 2em 0.5em;
+    justify-content: end;
+    align-content: space-around;
+}
+#mainbannertext {
+    position: absolute;
+    bottom: 20%;
+    left: 42%;
+}
+#webinar-sec4 {
+    background-image: url(../../../../../images/Webinar/03/03.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: visible;
+    padding: 3em 1em 3em 1em;
+}
+#webinar-sec4-loti {
+    position: absolute;
+    left: 27%;
+    top: -98px;
+}
+#webinar-sec3 {
+    background: #edf0f5;
+}
+#webinar-sec3 .elementor-col-33 .elementor-element-populated {
+    padding: 0%;
+    border: 1px solid #b7bdcb;
+}
+#webinar-sec3-img, #webinar-sec3-img-1, #webinar-sec3-img-2 {
+    background-color: #071538;
+    padding-top: 65px;
+    border-radius: 5px 5px 0px 0px;
+}
+#webinar-sec3-img-1 {
+    padding-top: 76px;
+}
+#webinar-sec3-img-2 {
+    padding-top: 72px;
+}
+#webinar-sec3-text {
+    display: flex;
+}
+#webinar-sec3-cont {
+    padding: 22px;
+}
+#webinar-sec3-cont h5 {
+    font-size: 18px;
+}
+#webinar-sec3-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+#webinar-sec3-btn button {
+    background-color: #ed1b24;
+    border-color: #ed1b24;
+    padding: 12px 25px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 500;
+}
+#webinar-sec3-btn button:hover {
+    background-color: #bd0514;
+    border-color: #bd0514;
+}
+#mike {
+    position: absolute;
+    right: 10px;
+    top: -141px;
+}
+#webinar-sec2 {
+    background: linear-gradient(45deg, #06102b, #071538);
+}
+#webinar-sec2 .elementor-view-stacked .elementor-icon {
+    background-color: #a8013900;
+    background-image: url(../../../../../images/Webinar/01/Circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#webinar-sec2 .elementor-element-255708c>.elementor-element-populated {
+    margin: 0em 1em 0em 0em;
+    align-content: start;
+}
+#webinar-sec2 .elementor-col-33 p {
+    font-weight: 400;
+    color: #ffffffc4;
+    font-size: 14px;
+}
+#webinar-sec2 .elementor-col-33 span>p {
+    color: #fff;
+}
+#webinar-sec2 .elementor-col-33 .elementor-icon-box-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+#webinar-sec5 .elementor-element-5a2f1b0 h3 {
+    margin-bottom: 25px;
+}
 
 
 
@@ -3486,6 +3593,14 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     #economic-sec5 {
         padding: 4em 2em 24em 2em;
     }
+
+    /* Webinar  */
+    /* #webinar-sec2-1 {
+        flex-direction: row-reverse;
+    }
+    #webinar-sec2-2 {
+        flex-direction: column-reverse;
+    } */
 }
 
 @media only screen and (max-width: 600px) {
@@ -3742,6 +3857,31 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     .scrollable-container {
         padding: 10px;
     }
+
+    /* Webinar  */
+    /* #mainbannertext {
+        bottom: 3%;
+    }
+    #mainbannertext h2 {
+        font-size: 14px;
+    }
+    #webinar-sec2-1, #webinar-sec2-2 {
+        flex-direction: column-reverse;
+    }
+    #mike {
+        top: -41px;
+        width: 40px;
+    }
+    #webinar-sec4-loti {
+        left: 13%;
+        top: 460px;
+    }
+    #webinar-sec4 {
+        padding: 0em 1em 34em 1em;
+    }
+    #webinar-sec5-1 .elementor-element-populated {
+        padding: 0em 1em 2em;
+    } */
 }
 
 @media only screen and (min-width: 1600px) {
