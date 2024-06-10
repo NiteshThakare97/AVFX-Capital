@@ -3874,13 +3874,16 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #webinar-sec4-loti {
         left: 13%;
-        top: 460px;
+        top: 510px;
     }
     #webinar-sec4 {
-        padding: 0em 1em 34em 1em;
+        padding: 0em 1em 37em 1em;
     }
     #webinar-sec5-1 .elementor-element-populated {
-        padding: 0em 1em 2em;
+        padding: 2em 1em 2em;
+    }
+    #webinar-sec6 .elementor-container {
+        flex-direction: column-reverse;
     }
 }
 
