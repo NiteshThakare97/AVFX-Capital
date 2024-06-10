@@ -3595,12 +3595,12 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
 
     /* Webinar  */
-    /* #webinar-sec2-1 {
+    #webinar-sec2-1 {
         flex-direction: row-reverse;
     }
     #webinar-sec2-2 {
         flex-direction: column-reverse;
-    } */
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3859,7 +3859,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
 
     /* Webinar  */
-    /* #mainbannertext {
+    #mainbannertext {
         bottom: 3%;
     }
     #mainbannertext h2 {
@@ -3881,7 +3881,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #webinar-sec5-1 .elementor-element-populated {
         padding: 0em 1em 2em;
-    } */
+    }
 }
 
 @media only screen and (min-width: 1600px) {
