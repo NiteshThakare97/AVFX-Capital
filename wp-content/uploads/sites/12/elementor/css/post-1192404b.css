@@ -2530,7 +2530,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     background: linear-gradient(180deg, #970043, #c60321);
 }
 
-#cfd hr, #webinar hr,
+#cfd hr, #webinar hr, #analyst hr,
 #metals hr,
 #shares hr, #forex-trading-closure hr,
 #commodities hr, #indices hr, #cryptocurrency hr, #energies hr, #legal-information hr, #economic-calendar hr  {
@@ -3372,7 +3372,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     margin-top: 20px;
     text-align: center;
 }
-#webinar-sec3-btn button {
+#webinar-sec3-btn button, #analyst-sec3 button {
     background-color: #ed1b24;
     border-color: #ed1b24;
     padding: 12px 25px;
@@ -3380,7 +3380,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     color: #fff;
     font-weight: 500;
 }
-#webinar-sec3-btn button:hover {
+#webinar-sec3-btn button:hover, #analyst-sec3 button:hover {
     background-color: #bd0514;
     border-color: #bd0514;
 }
@@ -3416,6 +3416,32 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 }
 #webinar-sec5 .elementor-element-5a2f1b0 h3 {
     margin-bottom: 25px;
+}
+
+/* Talk to Our Analysts  */
+
+#analyst-sec2 {
+    background-color: #edf0f5;
+}
+#analyst-sec2-1 {
+    padding: 3em 0em 3em 2.5em;
+}
+#analyst-sec2 .elementor-col-20 .elementor-element-populated {
+    padding: 3em 0em 3em 0em;
+}
+#analyst-sec2-3 {
+    padding: 3em 3em 3em 0em;
+    align-content: normal;
+}
+#analyst-sec3 {
+    background: linear-gradient(90deg, #071230, #071538);
+} 
+#analyst-sec2 p {
+    color: #1f2a3ed1;
+    font-size: 18px;
+}
+#analyst-sec3-loti {
+    justify-content: center;
 }
 
 
@@ -3888,6 +3914,15 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #webinar-sec6 .elementor-container {
         flex-direction: column-reverse;
+    }
+
+    /* Talk to Our Analysts  */
+    #analyst-sec2-1, #analyst-sec2-3 {
+        padding: 2em;
+    }
+    #analyst-sec2 .elementor-col-20 .elementor-element-populated {
+        padding: 0em;
+        justify-content: center;
     }
 }
 
