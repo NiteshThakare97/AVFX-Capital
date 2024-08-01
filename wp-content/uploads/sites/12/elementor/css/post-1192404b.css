@@ -3300,9 +3300,9 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 }
 
 #webinar-sec5-1 .elementor-element-populated {
-    padding: 2em 0.5em;
+    padding: 2em 0em 0em 0em;
     justify-content: end;
-    align-content: space-around;
+    align-content: space-between;
 }
 
 #mainbannertext {
@@ -3323,6 +3323,10 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     position: absolute;
     left: 27%;
     top: -98px;
+}
+
+#webinar-sec4-loti img {
+    height: 480px;
 }
 
 #webinar-sec3 {
@@ -3422,6 +3426,10 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 
 #webinar-sec5 .elementor-element-5a2f1b0 h3 {
     margin-bottom: 25px;
+}
+
+#webinar-sec6-1>.elementor-element-populated {
+    padding: 2em 3em 1em 3em;
 }
 
 
@@ -3617,6 +3625,9 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #webinar-sec2-2 {
         flex-direction: column-reverse;
+    }
+    #webinar-sec4-loti img {
+        height: auto;
     }
 }
 
