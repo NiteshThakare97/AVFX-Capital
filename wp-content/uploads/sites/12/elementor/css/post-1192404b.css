@@ -3272,6 +3272,10 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     left: 3%;
 }
 
+#economic-sec2-loti img {
+    width: 32%;
+}
+
 #economic-sec5-loti-1 {
     position: absolute;
 }
@@ -3608,7 +3612,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
         left: 0%;
     }
     #economic-sec2-loti img {
-        width: 90%;
+        width: 42%;
     }
     #economic-sec5-loti-1 {
         top: 93%;
@@ -3842,6 +3846,9 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #economic-sec2-loti {
         bottom: -300px;
+    }
+    #economic-sec2-loti img {
+        width: 100%;
     }
     #economic-sec4-loti img {
         width: 55%;
