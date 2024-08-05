@@ -3440,11 +3440,13 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 /* Talk to Our Analysts  */
 
 #analyst-sec2 {
-    background-color: #edf0f5;
+    background-image: url(../../../../../images/Talk-to-Analyst/01/Section01BG.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #analyst-sec2-1 {
-    padding: 3em 0em 3em 2.5em;
+    padding: 3em 3em 3em 2.5em;
 }
 
 #analyst-sec2 .elementor-col-20 .elementor-element-populated {
@@ -3452,7 +3454,7 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
 }
 
 #analyst-sec2-3 {
-    padding: 3em 3em 3em 0em;
+    padding: 3em 1em 3em 2em;
     align-content: normal;
 }
 
@@ -3465,8 +3467,16 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     font-size: 18px;
 }
 
+#analyst-sec2-1 p {
+    padding-right: 13%;
+}
+
 #analyst-sec3-loti {
     justify-content: center;
+}
+
+#analyst-sec2 h4 {
+    font-size: 28px;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
