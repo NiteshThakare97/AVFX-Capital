@@ -3458,6 +3458,15 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     align-content: normal;
 }
 
+#analyst-sec2-4 {
+    padding: 9em 1em 3em 2em;
+    align-content: normal;
+}
+
+#analyst-sec2-3 img {
+    padding-right: 9%;
+}
+
 #analyst-sec3 {
     background: linear-gradient(90deg, #071230, #071538);
 }
@@ -3471,12 +3480,36 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     padding-right: 13%;
 }
 
+#analyst-sec2-4 p {
+    padding-right: 12%;
+}
+
 #analyst-sec3-loti {
     justify-content: center;
 }
 
 #analyst-sec2 h4 {
     font-size: 28px;
+}
+
+#analyst-sec2-4 h4 {
+    margin: 35px 0px 40px 0px;
+}
+
+#analyst-sec2-4 button {
+    background-color: #e4000d;
+    border-color: #e4000d;
+    padding: 12px 25px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#analyst-circle {
+    position: absolute;
+    z-index: 0;
+    top: -14px;
+    right: -42px;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -3642,6 +3675,20 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
     }
     #webinar-sec4-loti img {
         height: auto;
+    }
+    /* Analyst  */
+    #analyst-sec2-1 {
+        padding: 3em 0em 3em 2.5em;
+    }
+    #analyst-sec2-4 p {
+        padding-right: 0%;
+    }
+    #analyst-sec2-4 {
+        padding: 0em 1em 3em 2em;
+    }
+    #analyst-circle {
+        right: -14px;
+        width: 40%;
     }
 }
 
@@ -3910,13 +3957,29 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
         flex-direction: column-reverse;
     }
     /* Talk to Our Analysts  */
-    #analyst-sec2-1,
-    #analyst-sec2-3 {
+    #analyst-sec2-1 {
         padding: 2em;
+    }
+    #analyst-sec2-3 {
+        padding: 0em 2em 2em 2em;
     }
     #analyst-sec2 .elementor-col-20 .elementor-element-populated {
         padding: 0em;
         justify-content: center;
+    }
+    #analyst-sec2-1 p,
+    #analyst-sec2-4 p {
+        padding-right: 0%;
+    }
+    #analyst-sec2-4 {
+        padding: 0em 1em 3em 2em;
+    }
+    #analyst-circle {
+        right: -25px;
+        width: 43%;
+    }
+    #analyst-sec2-5 {
+        flex-direction: column-reverse;
     }
 }
 
@@ -3937,3 +4000,5 @@ body.rtl .elementor-1192 .elementor-element.elementor-element-123641a {
         padding: 11em 1em 16em 1em;
     }
 }
+
+z
