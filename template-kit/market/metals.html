@@ -222,11 +222,11 @@
             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
         }
         
-        :where(.is-layout-flex) {
+         :where(.is-layout-flex) {
             gap: 0.5em;
         }
         
-        :where(.is-layout-grid) {
+         :where(.is-layout-grid) {
             gap: 0.5em;
         }
         
@@ -295,19 +295,19 @@
             margin: 0;
         }
         
-        :where(.wp-block-columns.is-layout-flex) {
+         :where(.wp-block-columns.is-layout-flex) {
             gap: 2em;
         }
         
-        :where(.wp-block-columns.is-layout-grid) {
+         :where(.wp-block-columns.is-layout-grid) {
             gap: 2em;
         }
         
-        :where(.wp-block-post-template.is-layout-flex) {
+         :where(.wp-block-post-template.is-layout-flex) {
             gap: 1.25em;
         }
         
-        :where(.wp-block-post-template.is-layout-grid) {
+         :where(.wp-block-post-template.is-layout-grid) {
             gap: 1.25em;
         }
         
@@ -523,19 +523,19 @@
             color: inherit;
         }
         
-        :where(.wp-block-post-template.is-layout-flex) {
+         :where(.wp-block-post-template.is-layout-flex) {
             gap: 1.25em;
         }
         
-        :where(.wp-block-post-template.is-layout-grid) {
+         :where(.wp-block-post-template.is-layout-grid) {
             gap: 1.25em;
         }
         
-        :where(.wp-block-columns.is-layout-flex) {
+         :where(.wp-block-columns.is-layout-flex) {
             gap: 2em;
         }
         
-        :where(.wp-block-columns.is-layout-grid) {
+         :where(.wp-block-columns.is-layout-grid) {
             gap: 2em;
         }
         
@@ -2654,7 +2654,9 @@
     </script>
     <script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts459e.js?ver=3.0.4" id="ekit-widget-scripts-js"></script>
     <script src="../../wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269.js?ver=1.0.1" id="smartmenus-js"></script>
-    <script src="../../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min5829.js?ver=3.15.1" id="elementor-pro-webpack-runtime-js"></script>
+    <!-- This is the Code due to which Navbar was not working properly, dropdown in navbar and in mobile view was not working properly. This happened because this below plugin version got updated in the theme. Next time if navbar does not work check this Js plugin in the theme and update it here. Theme:
+     https://webkit.moxcreative.com/invoux/template-kit/homepage/ -->
+    <script src="../../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js" id="elementor-pro-webpack-runtime-js"></script>
     <script src="../../wp-content/plugins/elementor/assets/js/webpack.runtime.min225e.js?ver=3.19.0" id="elementor-webpack-runtime-js"></script>
     <script src="../../wp-content/plugins/elementor/assets/js/frontend-modules.min225e.js?ver=3.19.0" id="elementor-frontend-modules-js"></script>
     <script src="../../wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
