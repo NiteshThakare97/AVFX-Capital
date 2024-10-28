@@ -6610,7 +6610,8 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     background-image: url(../../../../../images/MediaHouse/NewsBG.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 2% 0% 4%;
+    /* padding: 2% 0% 4%;      add again after uncommenting Awards section  */
+    padding: 4% 0% 7%;
 }
 
 #media-house-sec div {
