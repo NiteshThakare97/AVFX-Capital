@@ -6633,6 +6633,34 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     color: #071434;
 }
 
+#diwali-contest {
+    position: absolute;
+    width: 34%;
+    top: 10%;
+    padding-left: 3%;
+    color: aliceblue;
+}
+
+#diwali-contest button {
+    background-color: #ffc61d;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 14px 25px;
+    color: #000;
+}
+
+#diwali-contest h1 {
+    font-size: 55px;
+}
+
+#diwali-contest h2 {
+    font-size: 32px;
+}
+
+#contest {
+    margin: 35px 0px 45px;
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     .elementor-36 .elementor-element.elementor-element-ee87b04 {
         padding: 4em 2em 29em 2em;
@@ -6686,6 +6714,22 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
         padding-left: 2%;
         margin-bottom: 15px;
         font-size: 22px;
+    }
+    #diwali-contest h1 {
+        font-size: 35px;
+    }
+    #diwali-contest h2 {
+        font-size: 24px;
+    }
+    #contest {
+        margin: 15px 0px 15px;
+    }
+    #contest h5 {
+        margin: 0px;
+    }
+    #diwali-contest {
+        width: 43%;
+        top: 3%;
     }
 }
 
@@ -6838,6 +6882,32 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
         width: 58%;
         font-size: 14px;
         padding: 12px 15px;
+    }
+    #diwali-contest {
+        width: 43%;
+        top: 3%;
+    }
+    #diwali-contest h1 {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+    #diwali-contest h2 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    #contest-text {
+        display: none;
+    }
+    #contest {
+        margin: -25px 0px 10px;
+    }
+    #contest h5 {
+        font-size: 13px;
+        margin: 2px 0px;
+    }
+    #diwali-contest button {
+        display: block;
+        padding: 10px 12px;
     }
 }
 
