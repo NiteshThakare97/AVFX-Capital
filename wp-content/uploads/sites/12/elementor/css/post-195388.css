@@ -248,7 +248,7 @@
     --widgets-spacing: 20px 20px;
 }
 
-    {}
+{}
 
 h1.entry-title {
     display: var(--page-title-display);
@@ -285,49 +285,42 @@ h1.entry-title {
         letter-spacing: var(--e-global-typography-b2ce6af-letter-spacing);
         word-spacing: var(--e-global-typography-b2ce6af-word-spacing);
     }
-
     .elementor-kit-19 h1 {
         font-size: var(--e-global-typography-583e54c-font-size);
         line-height: var(--e-global-typography-583e54c-line-height);
         letter-spacing: var(--e-global-typography-583e54c-letter-spacing);
         word-spacing: var(--e-global-typography-583e54c-word-spacing);
     }
-
     .elementor-kit-19 h2 {
         font-size: var(--e-global-typography-5d167aa-font-size);
         line-height: var(--e-global-typography-5d167aa-line-height);
         letter-spacing: var(--e-global-typography-5d167aa-letter-spacing);
         word-spacing: var(--e-global-typography-5d167aa-word-spacing);
     }
-
     .elementor-kit-19 h3 {
         font-size: var(--e-global-typography-d3dae9a-font-size);
         line-height: var(--e-global-typography-d3dae9a-line-height);
         letter-spacing: var(--e-global-typography-d3dae9a-letter-spacing);
         word-spacing: var(--e-global-typography-d3dae9a-word-spacing);
     }
-
     .elementor-kit-19 h4 {
         font-size: var(--e-global-typography-83682a1-font-size);
         line-height: var(--e-global-typography-83682a1-line-height);
         letter-spacing: var(--e-global-typography-83682a1-letter-spacing);
         word-spacing: var(--e-global-typography-83682a1-word-spacing);
     }
-
     .elementor-kit-19 h5 {
         font-size: var(--e-global-typography-7044a64-font-size);
         line-height: var(--e-global-typography-7044a64-line-height);
         letter-spacing: var(--e-global-typography-7044a64-letter-spacing);
         word-spacing: var(--e-global-typography-7044a64-word-spacing);
     }
-
     .elementor-kit-19 h6 {
         font-size: var(--e-global-typography-84ca66e-font-size);
         line-height: var(--e-global-typography-84ca66e-line-height);
         letter-spacing: var(--e-global-typography-84ca66e-letter-spacing);
         word-spacing: var(--e-global-typography-84ca66e-word-spacing);
     }
-
     .elementor-kit-19 button,
     .elementor-kit-19 input[type="button"],
     .elementor-kit-19 input[type="submit"],
@@ -335,21 +328,17 @@ h1.entry-title {
         font-size: var(--e-global-typography-text-font-size);
         line-height: var(--e-global-typography-text-line-height);
     }
-
     .elementor-kit-19 label {
         font-size: 15px;
     }
-
     .elementor-kit-19 input:not([type="button"]):not([type="submit"]),
     .elementor-kit-19 textarea,
     .elementor-kit-19 .elementor-field-textual {
         font-size: 15px;
     }
-
     .elementor-section.elementor-section-boxed>.elementor-container {
         max-width: 1024px;
     }
-
     .e-con {
         --container-max-width: 1024px;
     }
@@ -377,49 +366,42 @@ h1.entry-title {
         letter-spacing: var(--e-global-typography-b2ce6af-letter-spacing);
         word-spacing: var(--e-global-typography-b2ce6af-word-spacing);
     }
-
     .elementor-kit-19 h1 {
         font-size: var(--e-global-typography-583e54c-font-size);
         line-height: var(--e-global-typography-583e54c-line-height);
         letter-spacing: var(--e-global-typography-583e54c-letter-spacing);
         word-spacing: var(--e-global-typography-583e54c-word-spacing);
     }
-
     .elementor-kit-19 h2 {
         font-size: var(--e-global-typography-5d167aa-font-size);
         line-height: var(--e-global-typography-5d167aa-line-height);
         letter-spacing: var(--e-global-typography-5d167aa-letter-spacing);
         word-spacing: var(--e-global-typography-5d167aa-word-spacing);
     }
-
     .elementor-kit-19 h3 {
         font-size: var(--e-global-typography-d3dae9a-font-size);
         line-height: var(--e-global-typography-d3dae9a-line-height);
         letter-spacing: var(--e-global-typography-d3dae9a-letter-spacing);
         word-spacing: var(--e-global-typography-d3dae9a-word-spacing);
     }
-
     .elementor-kit-19 h4 {
         font-size: var(--e-global-typography-83682a1-font-size);
         line-height: var(--e-global-typography-83682a1-line-height);
         letter-spacing: var(--e-global-typography-83682a1-letter-spacing);
         word-spacing: var(--e-global-typography-83682a1-word-spacing);
     }
-
     .elementor-kit-19 h5 {
         font-size: var(--e-global-typography-7044a64-font-size);
         line-height: var(--e-global-typography-7044a64-line-height);
         letter-spacing: var(--e-global-typography-7044a64-letter-spacing);
         word-spacing: var(--e-global-typography-7044a64-word-spacing);
     }
-
     .elementor-kit-19 h6 {
         font-size: var(--e-global-typography-84ca66e-font-size);
         line-height: var(--e-global-typography-84ca66e-line-height);
         letter-spacing: var(--e-global-typography-84ca66e-letter-spacing);
         word-spacing: var(--e-global-typography-84ca66e-word-spacing);
     }
-
     .elementor-kit-19 button,
     .elementor-kit-19 input[type="button"],
     .elementor-kit-19 input[type="submit"],
@@ -427,25 +409,22 @@ h1.entry-title {
         font-size: var(--e-global-typography-text-font-size);
         line-height: var(--e-global-typography-text-line-height);
     }
-
     .elementor-kit-19 label {
         font-size: 14px;
     }
-
     .elementor-kit-19 input:not([type="button"]):not([type="submit"]),
     .elementor-kit-19 textarea,
     .elementor-kit-19 .elementor-field-textual {
         font-size: 14px;
     }
-
     .elementor-section.elementor-section-boxed>.elementor-container {
         max-width: 767px;
     }
-
     .e-con {
         --container-max-width: 767px;
     }
 }
+
 
 /* .horizontal-timeline .items {
     border-top: 3px solid #2b417a;
@@ -492,24 +471,29 @@ h1.entry-title {
     }
   } */
 
-  .elementor-element-f503020 {
+.elementor-element-f503020 {
     padding: 20px 0px;
     background: aliceblue;
     margin-top: 100px;
-  }
-  #pills-tab {
+}
+
+#pills-tab {
     width: 100%;
     justify-content: space-between;
-  }
-  #pills-tab .nav-item {
+}
+
+#pills-tab .nav-item {
     margin: 0px 10px;
-  }
-  #pills-tabContent {
+}
+
+#pills-tabContent {
     background: #4366b7;
     border-radius: 40px;
-  }
+}
+
 
 /* New Timeline css  */
+
 .timeline-wrapper {
     position: relative;
     width: 100%;
@@ -551,7 +535,8 @@ h1.entry-title {
     margin-top: 3px;
     margin-bottom: 0px;
 }
-.box-content h4{
+
+.box-content h4 {
     font-size: 19px;
     color: #fff;
 }
@@ -592,13 +577,14 @@ h1.entry-title {
 }
 
 .box-top .box-content::before {
-        /* border-top: #00b0bd; */
+    /* border-top: #00b0bd; */
     /* bottom: -20px; */
     border-style: dashed;
     height: 53px;
     border-right: 3px dashed #ca0926;
     top: 114px;
 }
+
 .box-top .box-content {
     top: -44px;
 }
@@ -607,13 +593,16 @@ p {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+
 /* New css */
+
 #roadmap {
     background-image: url(../../../../../images/Home/07/Section07BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3em 3em 2em 3em;
 }
+
 .box .date h2 {
     font-size: 30px;
     color: #fff;
@@ -624,6 +613,86 @@ p {
 .elementor-element-0756131-1 .elementor-widget-container {
     color: #b8bcc8;
     border-bottom: 1.5px solid #e4000d;
+}
+
+
+/* Banner css  */
+
+#diwali-contest {
+    position: absolute;
+    width: 34%;
+    top: 10%;
+    padding-left: 3%;
+    color: aliceblue;
+}
+
+#diwali-contest button {
+    background-color: #ffc61d;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 14px 25px;
+    color: #000;
+}
+
+#diwali-contest h1 {
+    font-size: 55px;
+}
+
+#diwali-contest h2 {
+    font-size: 32px;
+}
+
+#contest {
+    margin: 35px 0px 45px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    #diwali-contest h1 {
+        font-size: 35px;
+    }
+    #diwali-contest h2 {
+        font-size: 24px;
+        margin: -14px 0px 0px;
+    }
+    #contest {
+        margin: 15px 0px 15px;
+    }
+    #contest h5 {
+        margin: 0px;
+    }
+    #diwali-contest {
+        width: 43%;
+        top: 3%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #diwali-contest {
+        width: 43%;
+        top: 3%;
+    }
+    #diwali-contest h1 {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+    #diwali-contest h2 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    #contest-text {
+        display: none;
+    }
+    #contest {
+        margin: -25px 0px 10px;
+    }
+    #contest h5 {
+        font-size: 13px;
+        margin: 2px 0px;
+    }
+    #diwali-contest button {
+        display: block;
+        padding: 10px 12px;
+    }
 }
 
 @media only screen and (min-width: 1600px) {
