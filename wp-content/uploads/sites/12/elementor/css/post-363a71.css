@@ -6635,10 +6635,11 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 
 #diwali-contest {
     position: absolute;
-    width: 34%;
-    top: 10%;
-    padding-left: 3%;
+    width: 33%;
+    top: 15%;
+    padding-left: 0%;
     color: aliceblue;
+    right: 5%;
 }
 
 #diwali-contest button {
@@ -6647,14 +6648,18 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     font-weight: 500;
     padding: 14px 25px;
     color: #000;
+    margin: 20px 0px 0px 30px;
 }
 
 #diwali-contest h1 {
-    font-size: 55px;
+    font-size: 42px;
+    color: #fff;
+    line-height: 60px;
 }
 
-#diwali-contest h2 {
-    font-size: 32px;
+#diwali-contest p {
+    padding-top: 10px;
+    font-size: 17px;
 }
 
 #contest {
@@ -6716,21 +6721,31 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
         font-size: 22px;
     }
     #diwali-contest h1 {
-        font-size: 35px;
+        font-size: 32px;
+        line-height: 20px;
     }
-    #diwali-contest h2 {
-        font-size: 24px;
-        margin: -14px 0px 0px;
+    #diwali-contest h4 {
+        font-size: 18px;
     }
     #contest {
         margin: 15px 0px 15px;
     }
     #contest h5 {
-        margin: 0px;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
     #diwali-contest {
-        width: 43%;
+        width: 36%;
         top: 3%;
+    }
+    #diwali-contest .card {
+        padding: 30px 22px 18px 20px;
+    }
+    #diwali-contest p {
+        padding-top: 0px;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
     }
 }
 
@@ -6889,15 +6904,18 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
         top: 3%;
     }
     #diwali-contest h1 {
-        font-size: 20px;
+        font-size: 16px;
         margin: 5px 0px;
+        letter-spacing: 0.1px;
+        line-height: 16px;
     }
-    #diwali-contest h2 {
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
-    #contest-text {
+    #diwali-contest h4,
+    #diwali-contest-mob {
         display: none;
+    }
+    #diwali-contest h5 {
+        font-size: 12px;
+        margin: 1px 0px 0px 0px;
     }
     #contest {
         margin: -25px 0px 10px;
@@ -6908,12 +6926,32 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     }
     #diwali-contest button {
         display: block;
-        padding: 10px 12px;
+        padding: 8px 10px;
+        margin: 6px 0px 0px 10px;
+        font-size: 12px !important;
+    }
+    #diwali-contest .card {
+        padding: 8px 10px 12px 9px;
+    }
+    #diwali-contest p {
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 5px;
     }
 }
 
 @media only screen and (min-width: 1600px) {
     .elementor-36 .elementor-element.elementor-element-041e51c {
         padding: 6em 1em 5em 1em;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    #diwali-contest button {
+        margin: 12px 0px 0px 30px;
+    }
+    #diwali-contest {
+        width: 37%;
+        top: 4%;
     }
 }

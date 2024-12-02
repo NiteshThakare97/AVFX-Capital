@@ -621,9 +621,10 @@ p {
 #diwali-contest {
     position: absolute;
     width: 34%;
-    top: 10%;
+    top: 8%;
     padding-left: 3%;
     color: aliceblue;
+    right: 5%;
 }
 
 #diwali-contest button {
@@ -634,12 +635,11 @@ p {
     color: #000;
 }
 
-#diwali-contest h1 {
-    font-size: 55px;
-}
-
-#diwali-contest h2 {
-    font-size: 32px;
+#diwali-contest .card {
+    background: linear-gradient(224deg, #002e2c, #000e0e96);
+    color: #fff;
+    padding: 30px 22px 30px 35px;
+    border-radius: 20px;
 }
 
 #contest {
