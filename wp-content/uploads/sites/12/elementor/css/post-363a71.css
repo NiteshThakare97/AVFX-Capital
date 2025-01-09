@@ -6636,14 +6636,15 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 #diwali-contest {
     position: absolute;
     width: 33%;
-    top: 15%;
+    top: 78%;
     padding-left: 0%;
     color: aliceblue;
-    right: 5%;
+    right: 0%;
 }
 
 #diwali-contest button {
-    background-color: #ffc61d;
+    background: linear-gradient(180deg, #ebcf78, #a26728);
+    border-radius: 30px;
     text-transform: uppercase;
     font-weight: 500;
     padding: 14px 25px;
@@ -6736,7 +6737,7 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     }
     #diwali-contest {
         width: 36%;
-        top: 3%;
+        top: 75%;
     }
     #diwali-contest .card {
         padding: 30px 22px 18px 20px;
@@ -6901,7 +6902,7 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     }
     #diwali-contest {
         width: 43%;
-        top: 3%;
+        top: 73%;
     }
     #diwali-contest h1 {
         font-size: 16px;
@@ -6952,6 +6953,6 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
     }
     #diwali-contest {
         width: 37%;
-        top: 4%;
+        top: 78%;
     }
 }
