@@ -620,11 +620,11 @@ p {
 
 #diwali-contest {
     position: absolute;
-    width: 34%;
-    top: 8%;
-    padding-left: 3%;
+    top: 5%;
+    left: 9%;
+    width: 40%;
+    /* padding-left: 3%; */
     color: aliceblue;
-    right: 5%;
 }
 
 #diwali-contest button {
