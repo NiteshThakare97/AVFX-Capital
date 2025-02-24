@@ -44,6 +44,7 @@
     line-height: var(--e-global-typography-583e54c-line-height);
     letter-spacing: 0px;
     word-spacing: var(--e-global-typography-583e54c-word-spacing);
+    text-transform: none;
 }
 
 .elementor-1433 .elementor-element.elementor-element-7564da7 {
@@ -3096,6 +3097,12 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
     padding: 20px 0px 30px;
 }
 
+#other-plat-links h1 {
+    font-size: 31px;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
 #other-plat-links .col {
     margin: 0px 26px;
 }
@@ -3301,5 +3308,8 @@ body:not(.rtl) .elementor-1433 .elementor-element.elementor-element-35134cc .ele
     #wallet-banner .elementor-element-7564da7 .elementor-heading-title {
         padding-left: 39px;
         font-size: 12px;
+    }
+    #other-plat-links h1 {
+        font-size: 24px;
     }
 }
