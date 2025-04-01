@@ -618,12 +618,12 @@ p {
 
 /* Banner css  */
 
-#diwali-contest {
+
+/* #diwali-contest {
     position: absolute;
     top: 5%;
     left: 9%;
     width: 40%;
-    /* padding-left: 3%; */
     color: aliceblue;
 }
 
@@ -644,7 +644,7 @@ p {
 
 #contest {
     margin: 35px 0px 45px;
-}
+} */
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     #diwali-contest h1 {
