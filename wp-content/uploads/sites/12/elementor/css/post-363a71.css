@@ -6669,10 +6669,10 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
 #luxurytripbtn button {
     position: absolute;
     right: 3%;
-    bottom: 3%;
+    bottom: 2%;
     background: #ffcc00;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 17px 27px;
     color: #000;
     font-size: 14px;
 }
@@ -6772,7 +6772,7 @@ body.rtl .elementor-36 .elementor-element.elementor-element-e295708 {
         font-weight: 400;
     }
     #luxurytripbtn button {
-        bottom: 2%;
+        bottom: 1%;
         padding: 11px 11px;
         font-size: 12px;
     }
