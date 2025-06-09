@@ -3426,9 +3426,12 @@
     <script src="https://webkit.moxcreative.com/invoux/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.2.2" id="ekit-widget-scripts-js"></script>
     <script src="https://webkit.moxcreative.com/invoux/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
     <script src="https://webkit.moxcreative.com/invoux/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
-    <script src="https://webkit.moxcreative.com/invoux/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.0" id="elementor-pro-webpack-runtime-js"></script>
-    <script src="https://webkit.moxcreative.com/invoux/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.23.2" id="elementor-webpack-runtime-js"></script>
-    <script src="https://webkit.moxcreative.com/invoux/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.2" id="elementor-frontend-modules-js"></script>
+    <!-- This is the Code due to which Navbar was not working properly, dropdown in navbar and in mobile view was not working properly. This happened because this below plugin version got updated in the theme. Next time if navbar does not work check this Js plugin in the theme and update it here. Theme:
+     https://webkit.moxcreative.com/invoux/template-kit/homepage/ -->
+    <script src="../../wp-content/plugins/update/elementor/assets/js/webpack.runtime.min89ce.js" id="elementor-webpack-runtime-js"></script>
+    <script src="../../wp-content/plugins/update/elementor/assets/js/frontend-modules.min89ce.js" id="elementor-frontend-modules-js"></script>
+    <script src="../../wp-content/plugins/update/elementor-pro/assets/js/webpack-pro.runtime.min87cc.js" id="elementor-pro-webpack-runtime-js"></script>
+
     <script src="https://webkit.moxcreative.com/invoux/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
     <script src="https://webkit.moxcreative.com/invoux/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
     <script id="wp-i18n-js-after">
@@ -3695,6 +3698,12 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
+
+    <!-- extra adding js on 09-06-25 -->
+    <script src="../../wp-content/plugins/elementor/assets/js/frontend.min89ce.js" id="elementor-frontend-js"></script>
+    <script src="../../wp-content/plugins/update/elementor-pro/assets/js/elements-handlers.min87cc.js" id="pro-elements-handlers-js"></script>
+    <script src="../../wp-content/plugins/update/elementor-pro/assets/js/frontend.min87cc.js" id="pro-elements-handlers-js"></script>
+    <!-- extra adding js on 09-06-25 -->
 
 </body>
 
